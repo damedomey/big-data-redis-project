@@ -1,4 +1,4 @@
-package org.example.config;
+package org.unice.config;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

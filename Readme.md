@@ -1,3 +1,13 @@
+# Big Data Advanced
+
+This project aim to implement the concepts of NoSQL on Redis database
+
+## Description
+**todo** : add the description of project
+
+This project is also available for Mongo database in this repository
+https://github.com/SlaveofChrist/Big-Data-Advanced
+
 ## Docker Compose Services
 
 The docker-compose.yml file provided includes the following services:
@@ -26,3 +36,9 @@ The RedisClient class manages the connection to the Redis database. It uses the 
 Ensure that Redis is running and accessible on localhost with port 6379 or change the redis database config in the configuration class.
 Note that we don't use application.[yml|properties] file.
 
+## Authors
+
+* Eliel WOTOBE
+* Romeo David AMEDOMEY
+* Tymoteusz Igor Cyryl CIESIELSKI
+* Mohamed ELYSALEM

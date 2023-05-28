@@ -18,7 +18,7 @@ public class Address {
      * This constructor is used by jackson package to convert a string into Address
      *
      * When the data is serialized and stored in database, the default constructor cannot
-     * revert the process to get Address.class from the string. This constructor is specially
+     * revert the process to get Address() from the string. This constructor is specially
      * adapt from this case.
      * This is a possible solution to solve this issue instead of custom Serializer/Deserializer
      * @param address

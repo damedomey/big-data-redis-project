@@ -33,6 +33,10 @@ public class App
         }
 
         // Get a client from database
-        System.out.println(ClientService.getById("1"));;
+        System.out.println(ClientService.getById("1"));
+
+        // Get all document
+        System.out.println("Récupération de la liste de tous les clients");
+        System.out.println(ClientService.getAll());
     }
 }

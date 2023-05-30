@@ -2,21 +2,26 @@ package org.unice.service;
 
 import org.unice.config.RedisClient;
 import org.unice.model.Client;
-import redis.clients.jedis.Jedis;
+import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.exceptions.JedisDataException;
+import redis.clients.jedis.search.*;
+import redis.clients.jedis.search.schemafields.SchemaField;
+import redis.clients.jedis.search.schemafields.TextField;
 
-import javax.swing.text.html.Option;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 /**
  * Manage the persistence of data.
- * The client information are stored as Redis hash name like this client:id.
- * To go faster in search, the additional list can be stored to map a property
- * with the user key in database.
+ * The client information are stored as Json name like this: client:id.
+ *
+ * The search are performed with RedisSearch. The index name is idx_client.
  */
 public class ClientService {
-    private static Jedis database = RedisClient.getInstance().getResource();
-    private static String commonName = "client:";
+    private static final UnifiedJedis database = RedisClient.getInstance().getResource();
+    private static final String commonName = "client:";
+    private static final String indexName = "idx_client";
 
     /**
      * Save the client in database.
@@ -28,20 +33,31 @@ public class ClientService {
         if (database.exists(clientId)) {
             throw new Exception("A client with id " + clientId + " already exist.");
         } else {
-            database.hset(clientId, client.toMap());
+            database.jsonSet(clientId, client.toJson());
             return client;
         }
     }
 
-    public static Optional getById(String id){
-        Optional<Client> client = Optional.empty();
-        Map<String, String> response = database.hgetAll(commonName + id);
+    public static List<Client> getAll(){
+        createIndexIfNotExists();
 
-        if (response.size() > 0){
-            client = Optional.of(Client.fromMap(response));
+        List<Client> clients = new ArrayList<>();
+        SearchResult result = database.ftSearch(indexName, "*");
+
+        for (Document document: result.getDocuments()){
+            Iterable<Map.Entry<String, Object>> properties = document.getProperties();
+
+            if (properties.iterator().hasNext()){
+                Object json = properties.iterator().next().getValue();
+                clients.add(Client.fromJson(json.toString()));
+            }
         }
 
-        return client;
+        return clients;
+    }
+
+    public static Client getById(String id){
+        return database.jsonGet(commonName + id, Client.class);
     }
 
     /**
@@ -49,6 +65,33 @@ public class ClientService {
      * @param id
      */
     public static void delete(String id){
-        database.del(commonName + id);
+        database.jsonDel(commonName + id);
+    }
+
+    /**
+     * Create the index used by redis search
+     */
+    private static void createIndexIfNotExists(){
+        try {
+            database.ftInfo(indexName);
+        } catch (JedisDataException exception) {
+            FTCreateParams params = new FTCreateParams();
+            params.prefix(commonName);
+            params.on(IndexDataType.JSON);
+
+            List<SchemaField> fields = new ArrayList<>();
+
+            fields.add(TextField
+                    .of("lastname")
+                    .sortable()
+            );
+
+            fields.add(TextField
+                    .of("firstname")
+                    .sortable()
+            );
+
+            database.ftCreate(indexName, params, fields);
+        }
     }
 }

@@ -32,11 +32,15 @@ public class App
             throw new RuntimeException(e);
         }
 
-        // Get a client from database
+        // Get a client from database by id
         System.out.println(ClientService.getById("1"));
 
         // Get all document
         System.out.println("Récupération de la liste de tous les clients");
         System.out.println(ClientService.getAll());
+
+        // Get all document with lastname = AMEDOMEY
+        System.out.println("\n\nRécupération de la liste des clients avec le nom de famille AMEDOMEY");
+        System.out.println(ClientService.getByLastname("AMEDOMEY"));
     }
 }

@@ -41,23 +41,21 @@ public class ClientService {
     public static List<Client> getAll(){
         createIndexIfNotExists();
 
-        List<Client> clients = new ArrayList<>();
         SearchResult result = database.ftSearch(indexName, "*");
 
-        for (Document document: result.getDocuments()){
-            Iterable<Map.Entry<String, Object>> properties = document.getProperties();
-
-            if (properties.iterator().hasNext()){
-                Object json = properties.iterator().next().getValue();
-                clients.add(Client.fromJson(json.toString()));
-            }
-        }
-
-        return clients;
+        return extractClientsFromResult(result);
     }
 
     public static Client getById(String id){
         return database.jsonGet(commonName + id, Client.class);
+    }
+
+    public static List<Client> getByLastname(String lastname){
+        createIndexIfNotExists();
+
+        SearchResult result = database.ftSearch(indexName, "@lastname:" + lastname);
+
+        return extractClientsFromResult(result);
     }
 
     /**
@@ -82,16 +80,33 @@ public class ClientService {
             List<SchemaField> fields = new ArrayList<>();
 
             fields.add(TextField
-                    .of("lastname")
+                    .of("$.lastname")
+                    .as("lastname")
                     .sortable()
             );
 
             fields.add(TextField
-                    .of("firstname")
+                    .of("$.firstname")
+                    .as("firstname")
                     .sortable()
             );
 
-            database.ftCreate(indexName, params, fields);
+            String res = database.ftCreate(indexName, params, fields);
+            System.out.println("--> Index creation : " + res);
         }
+    }
+
+    private static List<Client> extractClientsFromResult(SearchResult result) {
+        List<Client> clients = new ArrayList<>();
+        for (Document document: result.getDocuments()){
+            Iterable<Map.Entry<String, Object>> properties = document.getProperties();
+
+            if (properties.iterator().hasNext()){
+                Object json = properties.iterator().next().getValue();
+                clients.add(Client.fromJson(json.toString()));
+            }
+        }
+
+        return clients;
     }
 }

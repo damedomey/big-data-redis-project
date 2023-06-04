@@ -8,6 +8,11 @@ This project aim to implement the concepts of NoSQL on Redis database
 This project is also available for Mongo database in this repository
 https://github.com/SlaveofChrist/Big-Data-Advanced
 
+### How to use
+
+- Certainly a bad way to do this, but you can found a unit test that load the data 
+in the database if you want too many data.
+
 ## Docker Compose Services
 
 The docker-compose.yml file provided includes the following services:

@@ -11,14 +11,14 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class Client extends JsonSerializable {
+public class Customer extends JsonSerializable {
     private String id;
     private String lastname;
     private List<String> firstname;
     private String phone;
     private Address address;
 
-    public static Client fromJson(String json){
-        return fromJson(json, Client.class);
+    public static Customer fromJson(String json){
+        return fromJson(json, Customer.class);
     }
 }

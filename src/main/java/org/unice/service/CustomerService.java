@@ -1,7 +1,7 @@
 package org.unice.service;
 
 import org.unice.config.RedisClient;
-import org.unice.model.Client;
+import org.unice.model.Customer;
 import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.exceptions.JedisDataException;
 import redis.clients.jedis.search.*;
@@ -14,31 +14,31 @@ import java.util.Map;
 
 /**
  * Manage the persistence of data.
- * The client information are stored as Json name like this: client:id.
+ * The customer information are stored as Json name like this: customer:id.
  *
- * The search are performed with RedisSearch. The index name is idx_client.
+ * The search are performed with RedisSearch. The index name is idx_customer.
  */
-public class ClientService {
+public class CustomerService {
     private static final UnifiedJedis database = RedisClient.getInstance().getResource();
-    private static final String commonName = "client:";
-    private static final String indexName = "idx_client";
+    private static final String commonName = "customer:";
+    private static final String indexName = "idx_customer";
 
     /**
-     * Save the client in database.
+     * Save the customer in database.
      * Throw [Exception] if a user with the same id already exist.
-     * @param client
+     * @param customer
      */
-    public static Client save(Client client) throws Exception {
-        String clientId = commonName + client.getId();
-        if (database.exists(clientId)) {
-            throw new Exception("A client with id " + clientId + " already exist.");
+    public static Customer save(Customer customer) throws Exception {
+        String customerId = commonName + customer.getId();
+        if (database.exists(customerId)) {
+            throw new Exception("A customer with id " + customerId + " already exist.");
         } else {
-            database.jsonSet(clientId, client.toJson());
-            return client;
+            database.jsonSet(customerId, customer.toJson());
+            return customer;
         }
     }
 
-    public static List<Client> getAll(){
+    public static List<Customer> getAll(){
         createIndexIfNotExists();
 
         SearchResult result = database.ftSearch(indexName, "*");
@@ -46,11 +46,11 @@ public class ClientService {
         return extractClientsFromResult(result);
     }
 
-    public static Client getById(String id){
-        return database.jsonGet(commonName + id, Client.class);
+    public static Customer getById(String id){
+        return database.jsonGet(commonName + id, Customer.class);
     }
 
-    public static List<Client> getByLastname(String lastname){
+    public static List<Customer> getByLastname(String lastname){
         createIndexIfNotExists();
 
         SearchResult result = database.ftSearch(indexName, "@lastname:" + lastname);
@@ -59,7 +59,7 @@ public class ClientService {
     }
 
     /**
-     * Delete a client by id
+     * Delete a customer by id
      * @param id
      */
     public static void delete(String id){
@@ -96,17 +96,17 @@ public class ClientService {
         }
     }
 
-    private static List<Client> extractClientsFromResult(SearchResult result) {
-        List<Client> clients = new ArrayList<>();
+    private static List<Customer> extractClientsFromResult(SearchResult result) {
+        List<Customer> customers = new ArrayList<>();
         for (Document document: result.getDocuments()){
             Iterable<Map.Entry<String, Object>> properties = document.getProperties();
 
             if (properties.iterator().hasNext()){
                 Object json = properties.iterator().next().getValue();
-                clients.add(Client.fromJson(json.toString()));
+                customers.add(Customer.fromJson(json.toString()));
             }
         }
 
-        return clients;
+        return customers;
     }
 }

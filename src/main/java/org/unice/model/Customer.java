@@ -5,8 +5,6 @@ import org.unice.model.submodel.Address;
 
 import java.util.List;
 
-@Getter
-@Setter
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

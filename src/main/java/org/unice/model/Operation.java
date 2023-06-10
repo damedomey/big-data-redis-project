@@ -10,7 +10,7 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 public class Operation extends JsonSerializable{
     private int id;
-    private LocalDate operationTime;
+    private String operationDate; // This should be LocalDate but I can not make it work so far...
     private String title;
     private int operationProfit;
     private int operationDebt;

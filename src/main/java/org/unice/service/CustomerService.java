@@ -6,6 +6,7 @@ import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.exceptions.JedisDataException;
 import redis.clients.jedis.search.*;
 import redis.clients.jedis.search.schemafields.SchemaField;
+import redis.clients.jedis.search.schemafields.TagField;
 import redis.clients.jedis.search.schemafields.TextField;
 
 import java.util.ArrayList;
@@ -70,9 +71,19 @@ public class CustomerService {
      * Create the index used by redis search
      */
     private static void createIndexIfNotExists(){
+        boolean indexExists = false;
+
         try {
-            database.ftInfo(indexName);
+            var info = database.ftInfo(indexName);
+
+            if (info != null && info.size() > 0) {
+                indexExists = true;
+            }
         } catch (JedisDataException exception) {
+            // Ignore the exception if the index does not exist
+        }
+
+        if (!indexExists){
             FTCreateParams params = new FTCreateParams();
             params.prefix(commonName);
             params.on(IndexDataType.JSON);
@@ -85,10 +96,9 @@ public class CustomerService {
                     .sortable()
             );
 
-            fields.add(TextField
-                    .of("$.firstname")
+            fields.add(TagField
+                    .of("$.firstname.*")
                     .as("firstname")
-                    .sortable()
             );
 
             String res = database.ftCreate(indexName, params, fields);

@@ -2,8 +2,6 @@ package org.unice.model.submodel;
 
 import lombok.*;
 
-@Getter
-@Setter
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -20,7 +20,7 @@ public class App
     public static void testClient(){
         // Create a new customer
         Customer customer = new Customer();
-        customer.setId("1");
+        customer.setId(1);
         customer.setLastname("AMEDOMEY");
         customer.setFirstname(List.of("Roméo", "David"));
         customer.setAddress(new Address(11L, "Avenue ", "06200", "Nice", "France"));
@@ -33,7 +33,7 @@ public class App
         }
 
         // Get a customer from database by id
-        System.out.println(CustomerService.getById("1"));
+        System.out.println(CustomerService.getById(1));
 
         // Get all document
         System.out.println("Récupération de la liste de tous les clients");

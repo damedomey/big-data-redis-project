@@ -47,7 +47,7 @@ public class CustomerService {
         return extractClientsFromResult(result);
     }
 
-    public static Customer getById(String id){
+    public static Customer getById(int id){
         return database.jsonGet(commonName + id, Customer.class);
     }
 
@@ -63,7 +63,7 @@ public class CustomerService {
      * Delete a customer by id
      * @param id
      */
-    public static void delete(String id){
+    public static void delete(int id){
         database.jsonDel(commonName + id);
     }
 

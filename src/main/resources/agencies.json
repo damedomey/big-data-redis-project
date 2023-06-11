@@ -1,0 +1,552 @@
+[
+    {
+       "id":1,
+       "name":"Dynatronics Corporation",
+       "address":{
+          "number":"63",
+          "street":"Del Mar",
+          "town":"San Lorenzo",
+          "postalCode":null,
+          "country":"Nicaragua"
+       }
+    },
+    {
+       "id":2,
+       "name":"Gramercy Property Trust",
+       "address":{
+          "number":"2",
+          "street":"Mallory",
+          "town":"Sakai",
+          "postalCode":"999-2256",
+          "country":"Japan"
+       }
+    },
+    {
+       "id":3,
+       "name":"Big Lots, Inc.",
+       "address":{
+          "number":"42149",
+          "street":"Shopko",
+          "town":"Oldřišov",
+          "postalCode":"747 33",
+          "country":"Czech Republic"
+       }
+    },
+    {
+       "id":4,
+       "name":"Peoples Bancorp Inc.",
+       "address":{
+          "number":"0043",
+          "street":"Nelson",
+          "town":"Wuxi",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":5,
+       "name":"Nuance Communications, Inc.",
+       "address":{
+          "number":"772",
+          "street":"Morrow",
+          "town":"Gbadolite",
+          "postalCode":null,
+          "country":"Democratic Republic of the Congo"
+       }
+    },
+    {
+       "id":6,
+       "name":"Novartis AG",
+       "address":{
+          "number":"991",
+          "street":"Anhalt",
+          "town":"Ust’-Abakan",
+          "postalCode":"163028",
+          "country":"Russia"
+       }
+    },
+    {
+       "id":7,
+       "name":"STERIS plc",
+       "address":{
+          "number":"03",
+          "street":"Vidon",
+          "town":"Cicurug",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":8,
+       "name":"Potbelly Corporation",
+       "address":{
+          "number":"20",
+          "street":"Westend",
+          "town":"Arboga",
+          "postalCode":"732 24",
+          "country":"Sweden"
+       }
+    },
+    {
+       "id":9,
+       "name":"Bank of Nova Scotia (The)",
+       "address":{
+          "number":"6609",
+          "street":"Delaware",
+          "town":"Yudai",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":10,
+       "name":"Veritiv Corporation",
+       "address":{
+          "number":"84321",
+          "street":"Calypso",
+          "town":"Mulyorejo",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":11,
+       "name":"LATAM Airlines Group S.A.",
+       "address":{
+          "number":"91135",
+          "street":"Clove",
+          "town":"Shihuajian",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":12,
+       "name":"Spark Energy, Inc.",
+       "address":{
+          "number":"86864",
+          "street":"Grasskamp",
+          "town":"Dolní Počernice",
+          "postalCode":"190 12",
+          "country":"Czech Republic"
+       }
+    },
+    {
+       "id":13,
+       "name":"Resource Capital Corp.",
+       "address":{
+          "number":"70873",
+          "street":"Prentice",
+          "town":"Stockholm",
+          "postalCode":"100 52",
+          "country":"Sweden"
+       }
+    },
+    {
+       "id":14,
+       "name":"Natuzzi, S.p.A.",
+       "address":{
+          "number":"5",
+          "street":"Carberry",
+          "town":"Unión",
+          "postalCode":null,
+          "country":"Paraguay"
+       }
+    },
+    {
+       "id":15,
+       "name":"U.S. Bancorp",
+       "address":{
+          "number":"0",
+          "street":"Hoffman",
+          "town":"Xiaxi",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":16,
+       "name":"NIC Inc.",
+       "address":{
+          "number":"29912",
+          "street":"Grasskamp",
+          "town":"Waingapu",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":17,
+       "name":"Dorian LPG Ltd.",
+       "address":{
+          "number":"50",
+          "street":"Lerdahl",
+          "town":"Zebrzydowice",
+          "postalCode":"43-410",
+          "country":"Poland"
+       }
+    },
+    {
+       "id":18,
+       "name":"China Advanced Construction Materials Group, Inc.",
+       "address":{
+          "number":"298",
+          "street":"Warbler",
+          "town":"Karangtawar",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":19,
+       "name":"Great Elm Capital Corp.",
+       "address":{
+          "number":"794",
+          "street":"Bobwhite",
+          "town":"Tanjungagung",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":20,
+       "name":"Vodafone Group Plc",
+       "address":{
+          "number":"4",
+          "street":"Wayridge",
+          "town":"Benito Juarez",
+          "postalCode":"84015",
+          "country":"Mexico"
+       }
+    },
+    {
+       "id":21,
+       "name":"AmTrust Financial Services, Inc.",
+       "address":{
+          "number":"775",
+          "street":"Ronald Regan",
+          "town":"Moss",
+          "postalCode":"1513",
+          "country":"Norway"
+       }
+    },
+    {
+       "id":22,
+       "name":"Oasmia Pharmaceutical AB",
+       "address":{
+          "number":"53032",
+          "street":"Grim",
+          "town":"Xinzhou",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":23,
+       "name":"Staples, Inc.",
+       "address":{
+          "number":"70",
+          "street":"Redwing",
+          "town":"Porteirinha",
+          "postalCode":"39520-000",
+          "country":"Brazil"
+       }
+    },
+    {
+       "id":24,
+       "name":"Liberty Interactive Corporation",
+       "address":{
+          "number":"70",
+          "street":"Hooker",
+          "town":"Torre do Pinhão",
+          "postalCode":"5060-569",
+          "country":"Portugal"
+       }
+    },
+    {
+       "id":25,
+       "name":"Intercept Pharmaceuticals, Inc.",
+       "address":{
+          "number":"0221",
+          "street":"Nelson",
+          "town":"Petřvald",
+          "postalCode":"735 41",
+          "country":"Czech Republic"
+       }
+    },
+    {
+       "id":26,
+       "name":"Timken Company (The)",
+       "address":{
+          "number":"1",
+          "street":"Becker",
+          "town":"Kimil’tey",
+          "postalCode":"665375",
+          "country":"Russia"
+       }
+    },
+    {
+       "id":27,
+       "name":"Entegris, Inc.",
+       "address":{
+          "number":"8671",
+          "street":"Stone Corner",
+          "town":"Montijo",
+          "postalCode":"2870-005",
+          "country":"Portugal"
+       }
+    },
+    {
+       "id":28,
+       "name":"Tahoe Resources, Inc.",
+       "address":{
+          "number":"4133",
+          "street":"Barby",
+          "town":"Tarragona",
+          "postalCode":"43071",
+          "country":"Spain"
+       }
+    },
+    {
+       "id":29,
+       "name":"Terreno Realty Corporation",
+       "address":{
+          "number":"936",
+          "street":"Bobwhite",
+          "town":"Azogues",
+          "postalCode":null,
+          "country":"Ecuador"
+       }
+    },
+    {
+       "id":30,
+       "name":"Flaherty & Crumrine Preferred Income Opportunity Fund Inc",
+       "address":{
+          "number":"01159",
+          "street":"Judy",
+          "town":"Malaga",
+          "postalCode":"29010",
+          "country":"Spain"
+       }
+    },
+    {
+       "id":31,
+       "name":"Ironwood Pharmaceuticals, Inc.",
+       "address":{
+          "number":"838",
+          "street":"Novick",
+          "town":"Chalaco",
+          "postalCode":null,
+          "country":"Peru"
+       }
+    },
+    {
+       "id":32,
+       "name":"Shenandoah Telecommunications Co",
+       "address":{
+          "number":"530",
+          "street":"Scott",
+          "town":"Tours",
+          "postalCode":"37942 CEDEX 9",
+          "country":"France"
+       }
+    },
+    {
+       "id":33,
+       "name":"Aegon NV",
+       "address":{
+          "number":"49",
+          "street":"Fulton",
+          "town":"Bitam",
+          "postalCode":null,
+          "country":"Gabon"
+       }
+    },
+    {
+       "id":34,
+       "name":"X-Links Gold Shares Covered Call ETN",
+       "address":{
+          "number":"3591",
+          "street":"Stone Corner",
+          "town":"Sugihan",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":35,
+       "name":"Gabelli Dividend",
+       "address":{
+          "number":"9",
+          "street":"Eastwood",
+          "town":"Erba",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":36,
+       "name":"Barings Participation Investors",
+       "address":{
+          "number":"0",
+          "street":"Dexter",
+          "town":"Dunmanway",
+          "postalCode":"P47",
+          "country":"Ireland"
+       }
+    },
+    {
+       "id":37,
+       "name":"Angie's List, Inc.",
+       "address":{
+          "number":"5",
+          "street":"Longview",
+          "town":"Aozou",
+          "postalCode":null,
+          "country":"Chad"
+       }
+    },
+    {
+       "id":38,
+       "name":"Exact Sciences Corporation",
+       "address":{
+          "number":"9",
+          "street":"Petterle",
+          "town":"Piraju",
+          "postalCode":"18800-000",
+          "country":"Brazil"
+       }
+    },
+    {
+       "id":39,
+       "name":"Ares Capital Corporation",
+       "address":{
+          "number":"7",
+          "street":"Shopko",
+          "town":"Gus’-Khrustal’nyy",
+          "postalCode":"601508",
+          "country":"Russia"
+       }
+    },
+    {
+       "id":40,
+       "name":"FlexShares US Quality Large Cap Index Fund",
+       "address":{
+          "number":"00979",
+          "street":"6th",
+          "town":"Ōme",
+          "postalCode":"357-0056",
+          "country":"Japan"
+       }
+    },
+    {
+       "id":41,
+       "name":"PowerShares DWA Consumer Cyclicals Momentum Portfolio",
+       "address":{
+          "number":"14679",
+          "street":"Old Gate",
+          "town":"Smilavichy",
+          "postalCode":null,
+          "country":"Belarus"
+       }
+    },
+    {
+       "id":42,
+       "name":"MSC Industrial Direct Company, Inc.",
+       "address":{
+          "number":"0427",
+          "street":"Lotheville",
+          "town":"Uglyanets",
+          "postalCode":"396130",
+          "country":"Russia"
+       }
+    },
+    {
+       "id":43,
+       "name":"Hingham Institution for Savings",
+       "address":{
+          "number":"805",
+          "street":"Meadow Vale",
+          "town":"Shangjing",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":44,
+       "name":"Liberty Interactive Corporation",
+       "address":{
+          "number":"0",
+          "street":"Ronald Regan",
+          "town":"Lalupon",
+          "postalCode":null,
+          "country":"Nigeria"
+       }
+    },
+    {
+       "id":45,
+       "name":"Triumph Group, Inc.",
+       "address":{
+          "number":"78849",
+          "street":"Sherman",
+          "town":"Qiwen",
+          "postalCode":null,
+          "country":"China"
+       }
+    },
+    {
+       "id":46,
+       "name":"TICC Capital Corp.",
+       "address":{
+          "number":"146",
+          "street":"Lillian",
+          "town":"Kotabumi",
+          "postalCode":null,
+          "country":"Indonesia"
+       }
+    },
+    {
+       "id":47,
+       "name":"CyrusOne Inc",
+       "address":{
+          "number":"0",
+          "street":"Holy Cross",
+          "town":"Świeradów-Zdrój",
+          "postalCode":"59-852",
+          "country":"Poland"
+       }
+    },
+    {
+       "id":48,
+       "name":"Alphabet Inc.",
+       "address":{
+          "number":"6",
+          "street":"Fairfield",
+          "town":"Mikuni",
+          "postalCode":"949-6212",
+          "country":"Japan"
+       }
+    },
+    {
+       "id":49,
+       "name":"Drive Shack Inc.",
+       "address":{
+          "number":"6",
+          "street":"Miller",
+          "town":"Senekal",
+          "postalCode":"9600",
+          "country":"South Africa"
+       }
+    },
+    {
+       "id":50,
+       "name":"Rand Capital Corporation",
+       "address":{
+          "number":"46878",
+          "street":"Sycamore",
+          "town":"Lyon",
+          "postalCode":"69395 CEDEX 03",
+          "country":"France"
+       }
+    }
+ ]

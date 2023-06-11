@@ -39,4 +39,39 @@ public class OperationTest extends TestCase{
 
             assertTrue(true);
         }
+
+    public void testGetAllOperations() throws RuntimeException{
+        try{
+            List<Operation> operations = OperationService.getAll();
+            assertEquals(100, operations.size());
+        }catch (Exception e){
+                System.out.println(e);
+                e.printStackTrace();
+                throw new RuntimeException();
+            }
+    }
+
+    public void testGetByID() throws RuntimeException{
+        try {
+            Operation operation = OperationService.getByID(68);
+            assertEquals( "Coffee Decaf Colombian", operation.getTitle());
+        }catch (Exception e){
+                System.out.println(e);
+                e.printStackTrace();
+                throw new RuntimeException();
+            }
+    }
+
+    public void testGetByTitle() throws RuntimeException{
+        try{
+            List<Operation> operations = OperationService.getByTitle("Potato Dill Pickle");
+            assertEquals(1, operations.size() );
+            assertEquals(4, operations.get(0).getId());
+        }
+        catch (Exception e){
+            System.out.println(e);
+            e.printStackTrace();
+            throw new RuntimeException();
+        }
+    }
 }

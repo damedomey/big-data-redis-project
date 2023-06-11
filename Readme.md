@@ -40,6 +40,20 @@ The RedisClient class manages the connection to the Redis database. It uses the 
 Ensure that Redis is running and accessible on localhost with port 6379 or change the redis database config in the configuration class.
 If you don't use the docker service, ensure that you have json and redis search module enabled.
 
+## Running tests
+### Run all the unit test classes.
+$ mvn test
+
+### Run a single test class.
+$ mvn -Dtest=TestApp1 test
+
+### Run multiple test classes.
+$ mvn -Dtest=TestApp1,TestApp2 test
+
+### Run a single test method from a test class.
+$ mvn -Dtest=TestApp1#methodname test
+
+
 ## Authors
 
 * Eliel WOTOBE

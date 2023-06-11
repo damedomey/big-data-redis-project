@@ -1,702 +1,702 @@
 [
-    {
-       "id":1,
-       "operationDate":"3/13/2023",
-       "title":"Mcguinness - Blue Curacao",
-       "operationDebit":702,
-       "operationProfit":0
-    },
-    {
-       "id":2,
-       "operationDate":"6/25/2022",
-       "title":"Venison - Liver",
-       "operationDebit":113,
-       "operationProfit":0
-    },
-    {
-       "id":3,
-       "operationDate":"11/11/2022",
-       "title":"Wine - Charddonnay Errazuriz",
-       "operationDebit":504,
-       "operationProfit":0
-    },
-    {
-       "id":4,
-       "operationDate":"7/12/2022",
-       "title":"Curry Paste - Green Masala",
-       "operationDebit":475,
-       "operationProfit":0
-    },
-    {
-       "id":5,
-       "operationDate":"7/18/2022",
-       "title":"Table Cloth 62x120 White",
-       "operationDebit":192,
-       "operationProfit":0
-    },
-    {
-       "id":6,
-       "operationDate":"10/3/2022",
-       "title":"Yeast Dry - Fermipan",
-       "operationDebit":198,
-       "operationProfit":0
-    },
-    {
-       "id":7,
-       "operationDate":"2/20/2023",
-       "title":"C - Plus, Orange",
-       "operationDebit":316,
-       "operationProfit":0
-    },
-    {
-       "id":8,
-       "operationDate":"8/17/2022",
-       "title":"Dc - Frozen Momji",
-       "operationDebit":906,
-       "operationProfit":0
-    },
-    {
-       "id":9,
-       "operationDate":"11/3/2022",
-       "title":"Wine - Domaine Boyar Royal",
-       "operationDebit":963,
-       "operationProfit":0
-    },
-    {
-       "id":10,
-       "operationDate":"5/8/2023",
-       "title":"Wine - Malbec Trapiche Reserve",
-       "operationDebit":5,
-       "operationProfit":0
-    },
-    {
-       "id":11,
-       "operationDate":"10/27/2022",
-       "title":"Coffee Cup 8oz 5338cd",
-       "operationDebit":729,
-       "operationProfit":0
-    },
-    {
-       "id":12,
-       "operationDate":"7/19/2022",
-       "title":"Cinnamon Buns Sticky",
-       "operationDebit":102,
-       "operationProfit":0
-    },
-    {
-       "id":13,
-       "operationDate":"8/11/2022",
-       "title":"Bread - Dark Rye, Loaf",
-       "operationDebit":509,
-       "operationProfit":0
-    },
-    {
-       "id":14,
-       "operationDate":"11/26/2022",
-       "title":"Lentils - Red, Dry",
-       "operationDebit":302,
-       "operationProfit":0
-    },
-    {
-       "id":15,
-       "operationDate":"8/23/2022",
-       "title":"Cheese - Ermite Bleu",
-       "operationDebit":475,
-       "operationProfit":0
-    },
-    {
-       "id":16,
-       "operationDate":"12/25/2022",
-       "title":"Vinegar - Cider",
-       "operationDebit":659,
-       "operationProfit":0
-    },
-    {
-       "id":17,
-       "operationDate":"12/21/2022",
-       "title":"The Pop Shoppe - Root Beer",
-       "operationDebit":159,
-       "operationProfit":0
-    },
-    {
-       "id":18,
-       "operationDate":"7/6/2022",
-       "title":"Strawberries",
-       "operationDebit":422,
-       "operationProfit":0
-    },
-    {
-       "id":19,
-       "operationDate":"11/11/2022",
-       "title":"Lamb Tenderloin Nz Fr",
-       "operationDebit":711,
-       "operationProfit":0
-    },
-    {
-       "id":20,
-       "operationDate":"7/7/2022",
-       "title":"Vaccum Bag - 14x20",
-       "operationDebit":68,
-       "operationProfit":0
-    },
-    {
-       "id":21,
-       "operationDate":"2/24/2023",
-       "title":"Rosemary - Dry",
-       "operationDebit":973,
-       "operationProfit":0
-    },
-    {
-       "id":22,
-       "operationDate":"11/8/2022",
-       "title":"Vodka - Moskovskaya",
-       "operationDebit":384,
-       "operationProfit":0
-    },
-    {
-       "id":23,
-       "operationDate":"5/28/2023",
-       "title":"Lemonade - Island Tea, 591 Ml",
-       "operationDebit":795,
-       "operationProfit":0
-    },
-    {
-       "id":24,
-       "operationDate":"2/12/2023",
-       "title":"Cleaner - Lime Away",
-       "operationDebit":372,
-       "operationProfit":0
-    },
-    {
-       "id":25,
-       "operationDate":"4/10/2023",
-       "title":"Gingerale - Diet - Schweppes",
-       "operationDebit":408,
-       "operationProfit":0
-    },
-    {
-       "id":26,
-       "operationDate":"3/4/2023",
-       "title":"Wine - Red, Cabernet Merlot",
-       "operationDebit":202,
-       "operationProfit":0
-    },
-    {
-       "id":27,
-       "operationDate":"1/4/2023",
-       "title":"Pork - Ham, Virginia",
-       "operationDebit":283,
-       "operationProfit":0
-    },
-    {
-       "id":28,
-       "operationDate":"2/21/2023",
-       "title":"Milk - Condensed",
-       "operationDebit":467,
-       "operationProfit":0
-    },
-    {
-       "id":29,
-       "operationDate":"8/26/2022",
-       "title":"Wine - Barbera Alba Doc 2001",
-       "operationDebit":643,
-       "operationProfit":0
-    },
-    {
-       "id":30,
-       "operationDate":"7/9/2022",
-       "title":"Shrimp - Prawn",
-       "operationDebit":450,
-       "operationProfit":0
-    },
-    {
-       "id":31,
-       "operationDate":"3/31/2023",
-       "title":"Shrimp - 16/20, Peeled Deviened",
-       "operationDebit":809,
-       "operationProfit":0
-    },
-    {
-       "id":32,
-       "operationDate":"12/13/2022",
-       "title":"Pie Filling - Apple",
-       "operationDebit":468,
-       "operationProfit":0
-    },
-    {
-       "id":33,
-       "operationDate":"3/16/2023",
-       "title":"Container - Hngd Cll Blk 7x7x3",
-       "operationDebit":514,
-       "operationProfit":0
-    },
-    {
-       "id":34,
-       "operationDate":"1/14/2023",
-       "title":"Calypso - Black Cherry Lemonade",
-       "operationDebit":446,
-       "operationProfit":0
-    },
-    {
-       "id":35,
-       "operationDate":"5/27/2023",
-       "title":"Ham Black Forest",
-       "operationDebit":474,
-       "operationProfit":0
-    },
-    {
-       "id":36,
-       "operationDate":"7/25/2022",
-       "title":"Tuna - Yellowfin",
-       "operationDebit":861,
-       "operationProfit":0
-    },
-    {
-       "id":37,
-       "operationDate":"12/25/2022",
-       "title":"Steam Pan - Half Size Deep",
-       "operationDebit":348,
-       "operationProfit":0
-    },
-    {
-       "id":38,
-       "operationDate":"10/14/2022",
-       "title":"Fudge - Chocolate Fudge",
-       "operationDebit":152,
-       "operationProfit":0
-    },
-    {
-       "id":39,
-       "operationDate":"2/9/2023",
-       "title":"Grouper - Fresh",
-       "operationDebit":49,
-       "operationProfit":0
-    },
-    {
-       "id":40,
-       "operationDate":"10/17/2022",
-       "title":"Loquat",
-       "operationDebit":110,
-       "operationProfit":0
-    },
-    {
-       "id":41,
-       "operationDate":"8/11/2022",
-       "title":"Juice - Ocean Spray Cranberry",
-       "operationDebit":522,
-       "operationProfit":0
-    },
-    {
-       "id":42,
-       "operationDate":"7/28/2022",
-       "title":"Kellogs Special K Cereal",
-       "operationDebit":289,
-       "operationProfit":0
-    },
-    {
-       "id":43,
-       "operationDate":"2/10/2023",
-       "title":"Coffee - Flavoured",
-       "operationDebit":966,
-       "operationProfit":0
-    },
-    {
-       "id":44,
-       "operationDate":"4/13/2023",
-       "title":"Cheese - Pont Couvert",
-       "operationDebit":194,
-       "operationProfit":0
-    },
-    {
-       "id":45,
-       "operationDate":"12/28/2022",
-       "title":"Pizza Pizza Dough",
-       "operationDebit":950,
-       "operationProfit":0
-    },
-    {
-       "id":46,
-       "operationDate":"3/17/2023",
-       "title":"Chips Potato Swt Chilli Sour",
-       "operationDebit":672,
-       "operationProfit":0
-    },
-    {
-       "id":47,
-       "operationDate":"3/29/2023",
-       "title":"Wine - Baron De Rothschild",
-       "operationDebit":47,
-       "operationProfit":0
-    },
-    {
-       "id":48,
-       "operationDate":"7/24/2022",
-       "title":"Wine - Red, Pinot Noir, Chateau",
-       "operationDebit":686,
-       "operationProfit":0
-    },
-    {
-       "id":49,
-       "operationDate":"2/28/2023",
-       "title":"Pastry - Butterscotch Baked",
-       "operationDebit":174,
-       "operationProfit":0
-    },
-    {
-       "id":50,
-       "operationDate":"6/7/2023",
-       "title":"Pear - Prickly",
-       "operationDebit":366,
-       "operationProfit":0
-    },
-    {
-       "id":51,
-       "operationDate":"1/13/2023",
-       "title":"Table Cloth - 53x69 Colour",
-       "operationDebit":0,
-       "operationProfit":54
-    },
-    {
-       "id":52,
-       "operationDate":"8/18/2022",
-       "title":"Pepper - Gypsy Pepper",
-       "operationDebit":0,
-       "operationProfit":180
-    },
-    {
-       "id":53,
-       "operationDate":"5/21/2023",
-       "title":"Hot Chocolate - Individual",
-       "operationDebit":0,
-       "operationProfit":960
-    },
-    {
-       "id":54,
-       "operationDate":"6/17/2022",
-       "title":"Sprite, Diet - 355ml",
-       "operationDebit":0,
-       "operationProfit":202
-    },
-    {
-       "id":55,
-       "operationDate":"12/15/2022",
-       "title":"Lettuce - Frisee",
-       "operationDebit":0,
-       "operationProfit":618
-    },
-    {
-       "id":56,
-       "operationDate":"10/17/2022",
-       "title":"Parsnip",
-       "operationDebit":0,
-       "operationProfit":340
-    },
-    {
-       "id":57,
-       "operationDate":"3/8/2023",
-       "title":"Muffin Mix - Lemon Cranberry",
-       "operationDebit":0,
-       "operationProfit":825
-    },
-    {
-       "id":58,
-       "operationDate":"1/1/2023",
-       "title":"Spinach - Frozen",
-       "operationDebit":0,
-       "operationProfit":92
-    },
-    {
-       "id":59,
-       "operationDate":"7/1/2022",
-       "title":"Wine - Harrow Estates, Vidal",
-       "operationDebit":0,
-       "operationProfit":534
-    },
-    {
-       "id":60,
-       "operationDate":"2/21/2023",
-       "title":"Lettuce - Mini Greens, Whole",
-       "operationDebit":0,
-       "operationProfit":432
-    },
-    {
-       "id":61,
-       "operationDate":"12/1/2022",
-       "title":"Compound - Strawberry",
-       "operationDebit":0,
-       "operationProfit":565
-    },
-    {
-       "id":62,
-       "operationDate":"3/6/2023",
-       "title":"Savory",
-       "operationDebit":0,
-       "operationProfit":609
-    },
-    {
-       "id":63,
-       "operationDate":"2/27/2023",
-       "title":"Bread - 10 Grain",
-       "operationDebit":0,
-       "operationProfit":527
-    },
-    {
-       "id":64,
-       "operationDate":"3/16/2023",
-       "title":"Onions - Cooking",
-       "operationDebit":0,
-       "operationProfit":52
-    },
-    {
-       "id":65,
-       "operationDate":"2/12/2023",
-       "title":"Flower - Potmums",
-       "operationDebit":0,
-       "operationProfit":63
-    },
-    {
-       "id":66,
-       "operationDate":"9/15/2022",
-       "title":"Pear - Prickly",
-       "operationDebit":0,
-       "operationProfit":316
-    },
-    {
-       "id":67,
-       "operationDate":"8/26/2022",
-       "title":"Cinnamon - Ground",
-       "operationDebit":0,
-       "operationProfit":631
-    },
-    {
-       "id":68,
-       "operationDate":"3/3/2023",
-       "title":"Coffee Decaf Colombian",
-       "operationDebit":0,
-       "operationProfit":963
-    },
-    {
-       "id":69,
-       "operationDate":"4/25/2023",
-       "title":"Lettuce - Treviso",
-       "operationDebit":0,
-       "operationProfit":281
-    },
-    {
-       "id":70,
-       "operationDate":"3/16/2023",
-       "title":"Bread - Frozen Basket Variety",
-       "operationDebit":0,
-       "operationProfit":917
-    },
-    {
-       "id":71,
-       "operationDate":"7/14/2022",
-       "title":"Pears - Bartlett",
-       "operationDebit":0,
-       "operationProfit":439
-    },
-    {
-       "id":72,
-       "operationDate":"12/13/2022",
-       "title":"Nori Sea Weed - Gold Label",
-       "operationDebit":0,
-       "operationProfit":485
-    },
-    {
-       "id":73,
-       "operationDate":"5/30/2023",
-       "title":"Table Cloth 62x114 White",
-       "operationDebit":0,
-       "operationProfit":1000
-    },
-    {
-       "id":74,
-       "operationDate":"6/4/2023",
-       "title":"Oxtail - Cut",
-       "operationDebit":0,
-       "operationProfit":93
-    },
-    {
-       "id":75,
-       "operationDate":"9/28/2022",
-       "title":"Fond - Neutral",
-       "operationDebit":0,
-       "operationProfit":4
-    },
-    {
-       "id":76,
-       "operationDate":"7/12/2022",
-       "title":"Pasta - Rotini, Colour, Dry",
-       "operationDebit":0,
-       "operationProfit":524
-    },
-    {
-       "id":77,
-       "operationDate":"11/23/2022",
-       "title":"Godiva White Chocolate",
-       "operationDebit":0,
-       "operationProfit":603
-    },
-    {
-       "id":78,
-       "operationDate":"1/31/2023",
-       "title":"Lettuce - Sea / Sea Asparagus",
-       "operationDebit":0,
-       "operationProfit":615
-    },
-    {
-       "id":79,
-       "operationDate":"12/18/2022",
-       "title":"Nutmeg - Ground",
-       "operationDebit":0,
-       "operationProfit":131
-    },
-    {
-       "id":80,
-       "operationDate":"12/1/2022",
-       "title":"Seedlings - Clamshell",
-       "operationDebit":0,
-       "operationProfit":300
-    },
-    {
-       "id":81,
-       "operationDate":"5/17/2023",
-       "title":"Longos - Grilled Veg Sandwiches",
-       "operationDebit":0,
-       "operationProfit":332
-    },
-    {
-       "id":82,
-       "operationDate":"1/22/2023",
-       "title":"Plate Foam Laminated 9in Blk",
-       "operationDebit":0,
-       "operationProfit":81
-    },
-    {
-       "id":83,
-       "operationDate":"4/12/2023",
-       "title":"Syrup - Chocolate",
-       "operationDebit":0,
-       "operationProfit":430
-    },
-    {
-       "id":84,
-       "operationDate":"5/14/2023",
-       "title":"Wine - White, Colubia Cresh",
-       "operationDebit":0,
-       "operationProfit":4
-    },
-    {
-       "id":85,
-       "operationDate":"3/26/2023",
-       "title":"Mushroom - Enoki, Dry",
-       "operationDebit":0,
-       "operationProfit":872
-    },
-    {
-       "id":86,
-       "operationDate":"5/27/2023",
-       "title":"Buffalo - Striploin",
-       "operationDebit":0,
-       "operationProfit":14
-    },
-    {
-       "id":87,
-       "operationDate":"10/12/2022",
-       "title":"Ham Black Forest",
-       "operationDebit":0,
-       "operationProfit":14
-    },
-    {
-       "id":88,
-       "operationDate":"2/12/2023",
-       "title":"Potatoes - Parissienne",
-       "operationDebit":0,
-       "operationProfit":824
-    },
-    {
-       "id":89,
-       "operationDate":"3/2/2023",
-       "title":"Dragon Fruit",
-       "operationDebit":0,
-       "operationProfit":139
-    },
-    {
-       "id":90,
-       "operationDate":"4/25/2023",
-       "title":"Nut - Macadamia",
-       "operationDebit":0,
-       "operationProfit":86
-    },
-    {
-       "id":91,
-       "operationDate":"6/15/2022",
-       "title":"Gelatine Leaves - Envelopes",
-       "operationDebit":0,
-       "operationProfit":915
-    },
-    {
-       "id":92,
-       "operationDate":"4/11/2023",
-       "title":"Potato - Sweet",
-       "operationDebit":0,
-       "operationProfit":193
-    },
-    {
-       "id":93,
-       "operationDate":"2/7/2023",
-       "title":"Coffee - Frthy Coffee Crisp",
-       "operationDebit":0,
-       "operationProfit":941
-    },
-    {
-       "id":94,
-       "operationDate":"6/28/2022",
-       "title":"Wine - Clavet Saint Emilion",
-       "operationDebit":0,
-       "operationProfit":180
-    },
-    {
-       "id":95,
-       "operationDate":"7/11/2022",
-       "title":"Beer - Fruli",
-       "operationDebit":0,
-       "operationProfit":665
-    },
-    {
-       "id":96,
-       "operationDate":"3/10/2023",
-       "title":"Crush - Grape, 355 Ml",
-       "operationDebit":0,
-       "operationProfit":446
-    },
-    {
-       "id":97,
-       "operationDate":"11/26/2022",
-       "title":"Towel Multifold",
-       "operationDebit":0,
-       "operationProfit":589
-    },
-    {
-       "id":98,
-       "operationDate":"12/28/2022",
-       "title":"Flower - Carnations",
-       "operationDebit":0,
-       "operationProfit":813
-    },
-    {
-       "id":99,
-       "operationDate":"9/7/2022",
-       "title":"Shrimp - 31/40",
-       "operationDebit":0,
-       "operationProfit":293
-    },
-    {
-       "id":100,
-       "operationDate":"9/12/2022",
-       "title":"Creme De Cacao Mcguines",
-       "operationDebit":0,
-       "operationProfit":270
-    }
- ]
+   {
+      "id":1,
+      "operationDate":"9/13/2022",
+      "title":"Tea - Herbal I Love Lemon",
+      "operationDebit":921,
+      "operationProfit":0
+   },
+   {
+      "id":2,
+      "operationDate":"6/6/2023",
+      "title":"Oxtail - Cut",
+      "operationDebit":753,
+      "operationProfit":0
+   },
+   {
+      "id":3,
+      "operationDate":"9/21/2022",
+      "title":"Extract - Vanilla,artificial",
+      "operationDebit":950,
+      "operationProfit":0
+   },
+   {
+      "id":4,
+      "operationDate":"11/9/2022",
+      "title":"Chip - Potato Dill Pickle",
+      "operationDebit":164,
+      "operationProfit":0
+   },
+   {
+      "id":5,
+      "operationDate":"7/8/2022",
+      "title":"Praline Paste",
+      "operationDebit":131,
+      "operationProfit":0
+   },
+   {
+      "id":6,
+      "operationDate":"12/26/2022",
+      "title":"Cardamon Seed / Pod",
+      "operationDebit":272,
+      "operationProfit":0
+   },
+   {
+      "id":7,
+      "operationDate":"11/8/2022",
+      "title":"Cheese - Comtomme",
+      "operationDebit":939,
+      "operationProfit":0
+   },
+   {
+      "id":8,
+      "operationDate":"9/23/2022",
+      "title":"Stock - Beef, White",
+      "operationDebit":7,
+      "operationProfit":0
+   },
+   {
+      "id":9,
+      "operationDate":"3/9/2023",
+      "title":"Wine - Rubyport",
+      "operationDebit":615,
+      "operationProfit":0
+   },
+   {
+      "id":10,
+      "operationDate":"6/29/2022",
+      "title":"Skirt - 29 Foot",
+      "operationDebit":75,
+      "operationProfit":0
+   },
+   {
+      "id":11,
+      "operationDate":"10/14/2022",
+      "title":"Oranges - Navel, 72",
+      "operationDebit":403,
+      "operationProfit":0
+   },
+   {
+      "id":12,
+      "operationDate":"5/27/2023",
+      "title":"Coconut Milk - Unsweetened",
+      "operationDebit":440,
+      "operationProfit":0
+   },
+   {
+      "id":13,
+      "operationDate":"2/28/2023",
+      "title":"Salsify, Organic",
+      "operationDebit":777,
+      "operationProfit":0
+   },
+   {
+      "id":14,
+      "operationDate":"7/18/2022",
+      "title":"Eggplant - Baby",
+      "operationDebit":520,
+      "operationProfit":0
+   },
+   {
+      "id":15,
+      "operationDate":"9/24/2022",
+      "title":"General Purpose Trigger",
+      "operationDebit":770,
+      "operationProfit":0
+   },
+   {
+      "id":16,
+      "operationDate":"7/23/2022",
+      "title":"Tarts Assorted",
+      "operationDebit":650,
+      "operationProfit":0
+   },
+   {
+      "id":17,
+      "operationDate":"4/22/2023",
+      "title":"Scotch - Queen Anne",
+      "operationDebit":292,
+      "operationProfit":0
+   },
+   {
+      "id":18,
+      "operationDate":"6/16/2022",
+      "title":"Wine - Mondavi Coastal Private",
+      "operationDebit":919,
+      "operationProfit":0
+   },
+   {
+      "id":19,
+      "operationDate":"4/13/2023",
+      "title":"Placemat - Scallop, White",
+      "operationDebit":92,
+      "operationProfit":0
+   },
+   {
+      "id":20,
+      "operationDate":"4/21/2023",
+      "title":"Lobster - Base",
+      "operationDebit":648,
+      "operationProfit":0
+   },
+   {
+      "id":21,
+      "operationDate":"12/6/2022",
+      "title":"Onions - Cippolini",
+      "operationDebit":912,
+      "operationProfit":0
+   },
+   {
+      "id":22,
+      "operationDate":"6/28/2022",
+      "title":"Bread - Assorted Rolls",
+      "operationDebit":747,
+      "operationProfit":0
+   },
+   {
+      "id":23,
+      "operationDate":"3/31/2023",
+      "title":"Cake - Pancake",
+      "operationDebit":733,
+      "operationProfit":0
+   },
+   {
+      "id":24,
+      "operationDate":"10/5/2022",
+      "title":"Wine - Cave Springs Dry Riesling",
+      "operationDebit":289,
+      "operationProfit":0
+   },
+   {
+      "id":25,
+      "operationDate":"1/6/2023",
+      "title":"Muffin - Banana Nut Individual",
+      "operationDebit":809,
+      "operationProfit":0
+   },
+   {
+      "id":26,
+      "operationDate":"12/25/2022",
+      "title":"Coconut - Whole",
+      "operationDebit":933,
+      "operationProfit":0
+   },
+   {
+      "id":27,
+      "operationDate":"8/24/2022",
+      "title":"Clementine",
+      "operationDebit":146,
+      "operationProfit":0
+   },
+   {
+      "id":28,
+      "operationDate":"10/3/2022",
+      "title":"Potatoes - Pei 10 Oz",
+      "operationDebit":444,
+      "operationProfit":0
+   },
+   {
+      "id":29,
+      "operationDate":"10/23/2022",
+      "title":"Soup - French Can Pea",
+      "operationDebit":989,
+      "operationProfit":0
+   },
+   {
+      "id":30,
+      "operationDate":"1/20/2023",
+      "title":"Yokaline",
+      "operationDebit":37,
+      "operationProfit":0
+   },
+   {
+      "id":31,
+      "operationDate":"11/6/2022",
+      "title":"Pepsi - 600ml",
+      "operationDebit":714,
+      "operationProfit":0
+   },
+   {
+      "id":32,
+      "operationDate":"7/21/2022",
+      "title":"Croissant, Raw - Mini",
+      "operationDebit":360,
+      "operationProfit":0
+   },
+   {
+      "id":33,
+      "operationDate":"11/24/2022",
+      "title":"Cheese - Swiss",
+      "operationDebit":68,
+      "operationProfit":0
+   },
+   {
+      "id":34,
+      "operationDate":"11/9/2022",
+      "title":"Wine - Red, Metus Rose",
+      "operationDebit":819,
+      "operationProfit":0
+   },
+   {
+      "id":35,
+      "operationDate":"12/5/2022",
+      "title":"Cocoa Powder - Dutched",
+      "operationDebit":44,
+      "operationProfit":0
+   },
+   {
+      "id":36,
+      "operationDate":"7/6/2022",
+      "title":"Cod - Black Whole Fillet",
+      "operationDebit":575,
+      "operationProfit":0
+   },
+   {
+      "id":37,
+      "operationDate":"10/14/2022",
+      "title":"Cheese - Brie, Cups 125g",
+      "operationDebit":531,
+      "operationProfit":0
+   },
+   {
+      "id":38,
+      "operationDate":"2/23/2023",
+      "title":"Doilies - 10, Paper",
+      "operationDebit":127,
+      "operationProfit":0
+   },
+   {
+      "id":39,
+      "operationDate":"11/18/2022",
+      "title":"Daikon Radish",
+      "operationDebit":744,
+      "operationProfit":0
+   },
+   {
+      "id":40,
+      "operationDate":"7/27/2022",
+      "title":"Capicola - Hot",
+      "operationDebit":574,
+      "operationProfit":0
+   },
+   {
+      "id":41,
+      "operationDate":"9/25/2022",
+      "title":"Zucchini - Yellow",
+      "operationDebit":35,
+      "operationProfit":0
+   },
+   {
+      "id":42,
+      "operationDate":"4/22/2023",
+      "title":"Longos - Lasagna Beef",
+      "operationDebit":708,
+      "operationProfit":0
+   },
+   {
+      "id":43,
+      "operationDate":"7/2/2022",
+      "title":"Fork - Plastic",
+      "operationDebit":913,
+      "operationProfit":0
+   },
+   {
+      "id":44,
+      "operationDate":"9/1/2022",
+      "title":"Rhubarb",
+      "operationDebit":252,
+      "operationProfit":0
+   },
+   {
+      "id":45,
+      "operationDate":"6/10/2023",
+      "title":"Vinegar - White",
+      "operationDebit":649,
+      "operationProfit":0
+   },
+   {
+      "id":46,
+      "operationDate":"6/2/2023",
+      "title":"Wine - Chateauneuf Du Pape",
+      "operationDebit":171,
+      "operationProfit":0
+   },
+   {
+      "id":47,
+      "operationDate":"7/12/2022",
+      "title":"Extract - Rum",
+      "operationDebit":508,
+      "operationProfit":0
+   },
+   {
+      "id":48,
+      "operationDate":"10/4/2022",
+      "title":"Pork - Caul Fat",
+      "operationDebit":156,
+      "operationProfit":0
+   },
+   {
+      "id":49,
+      "operationDate":"3/10/2023",
+      "title":"Pepper - Pablano",
+      "operationDebit":960,
+      "operationProfit":0
+   },
+   {
+      "id":50,
+      "operationDate":"12/5/2022",
+      "title":"Corn - On The Cob",
+      "operationDebit":992,
+      "operationProfit":0
+   },
+   {
+      "id":51,
+      "operationDate":"1/13/2023",
+      "title":"Table Cloth - 53x69 Colour",
+      "operationDebit":0,
+      "operationProfit":54
+   },
+   {
+      "id":52,
+      "operationDate":"8/18/2022",
+      "title":"Pepper - Gypsy Pepper",
+      "operationDebit":0,
+      "operationProfit":180
+   },
+   {
+      "id":53,
+      "operationDate":"5/21/2023",
+      "title":"Hot Chocolate - Individual",
+      "operationDebit":0,
+      "operationProfit":960
+   },
+   {
+      "id":54,
+      "operationDate":"6/17/2022",
+      "title":"Sprite, Diet - 355ml",
+      "operationDebit":0,
+      "operationProfit":202
+   },
+   {
+      "id":55,
+      "operationDate":"12/15/2022",
+      "title":"Lettuce - Frisee",
+      "operationDebit":0,
+      "operationProfit":618
+   },
+   {
+      "id":56,
+      "operationDate":"10/17/2022",
+      "title":"Parsnip",
+      "operationDebit":0,
+      "operationProfit":340
+   },
+   {
+      "id":57,
+      "operationDate":"3/8/2023",
+      "title":"Muffin Mix - Lemon Cranberry",
+      "operationDebit":0,
+      "operationProfit":825
+   },
+   {
+      "id":58,
+      "operationDate":"1/1/2023",
+      "title":"Spinach - Frozen",
+      "operationDebit":0,
+      "operationProfit":92
+   },
+   {
+      "id":59,
+      "operationDate":"7/1/2022",
+      "title":"Wine - Harrow Estates, Vidal",
+      "operationDebit":0,
+      "operationProfit":534
+   },
+   {
+      "id":60,
+      "operationDate":"2/21/2023",
+      "title":"Lettuce - Mini Greens, Whole",
+      "operationDebit":0,
+      "operationProfit":432
+   },
+   {
+      "id":61,
+      "operationDate":"12/1/2022",
+      "title":"Compound - Strawberry",
+      "operationDebit":0,
+      "operationProfit":565
+   },
+   {
+      "id":62,
+      "operationDate":"3/6/2023",
+      "title":"Savory",
+      "operationDebit":0,
+      "operationProfit":609
+   },
+   {
+      "id":63,
+      "operationDate":"2/27/2023",
+      "title":"Bread - 10 Grain",
+      "operationDebit":0,
+      "operationProfit":527
+   },
+   {
+      "id":64,
+      "operationDate":"3/16/2023",
+      "title":"Onions - Cooking",
+      "operationDebit":0,
+      "operationProfit":52
+   },
+   {
+      "id":65,
+      "operationDate":"2/12/2023",
+      "title":"Flower - Potmums",
+      "operationDebit":0,
+      "operationProfit":63
+   },
+   {
+      "id":66,
+      "operationDate":"9/15/2022",
+      "title":"Pear - Prickly",
+      "operationDebit":0,
+      "operationProfit":316
+   },
+   {
+      "id":67,
+      "operationDate":"8/26/2022",
+      "title":"Cinnamon - Ground",
+      "operationDebit":0,
+      "operationProfit":631
+   },
+   {
+      "id":68,
+      "operationDate":"3/3/2023",
+      "title":"Coffee Decaf Colombian",
+      "operationDebit":0,
+      "operationProfit":963
+   },
+   {
+      "id":69,
+      "operationDate":"4/25/2023",
+      "title":"Lettuce - Treviso",
+      "operationDebit":0,
+      "operationProfit":281
+   },
+   {
+      "id":70,
+      "operationDate":"3/16/2023",
+      "title":"Bread - Frozen Basket Variety",
+      "operationDebit":0,
+      "operationProfit":917
+   },
+   {
+      "id":71,
+      "operationDate":"7/14/2022",
+      "title":"Pears - Bartlett",
+      "operationDebit":0,
+      "operationProfit":439
+   },
+   {
+      "id":72,
+      "operationDate":"12/13/2022",
+      "title":"Nori Sea Weed - Gold Label",
+      "operationDebit":0,
+      "operationProfit":485
+   },
+   {
+      "id":73,
+      "operationDate":"5/30/2023",
+      "title":"Table Cloth 62x114 White",
+      "operationDebit":0,
+      "operationProfit":1000
+   },
+   {
+      "id":74,
+      "operationDate":"6/4/2023",
+      "title":"Oxtail - Cut",
+      "operationDebit":0,
+      "operationProfit":93
+   },
+   {
+      "id":75,
+      "operationDate":"9/28/2022",
+      "title":"Fond - Neutral",
+      "operationDebit":0,
+      "operationProfit":4
+   },
+   {
+      "id":76,
+      "operationDate":"7/12/2022",
+      "title":"Pasta - Rotini, Colour, Dry",
+      "operationDebit":0,
+      "operationProfit":524
+   },
+   {
+      "id":77,
+      "operationDate":"11/23/2022",
+      "title":"Godiva White Chocolate",
+      "operationDebit":0,
+      "operationProfit":603
+   },
+   {
+      "id":78,
+      "operationDate":"1/31/2023",
+      "title":"Lettuce - Sea / Sea Asparagus",
+      "operationDebit":0,
+      "operationProfit":615
+   },
+   {
+      "id":79,
+      "operationDate":"12/18/2022",
+      "title":"Nutmeg - Ground",
+      "operationDebit":0,
+      "operationProfit":131
+   },
+   {
+      "id":80,
+      "operationDate":"12/1/2022",
+      "title":"Seedlings - Clamshell",
+      "operationDebit":0,
+      "operationProfit":300
+   },
+   {
+      "id":81,
+      "operationDate":"5/17/2023",
+      "title":"Longos - Grilled Veg Sandwiches",
+      "operationDebit":0,
+      "operationProfit":332
+   },
+   {
+      "id":82,
+      "operationDate":"1/22/2023",
+      "title":"Plate Foam Laminated 9in Blk",
+      "operationDebit":0,
+      "operationProfit":81
+   },
+   {
+      "id":83,
+      "operationDate":"4/12/2023",
+      "title":"Syrup - Chocolate",
+      "operationDebit":0,
+      "operationProfit":430
+   },
+   {
+      "id":84,
+      "operationDate":"5/14/2023",
+      "title":"Wine - White, Colubia Cresh",
+      "operationDebit":0,
+      "operationProfit":4
+   },
+   {
+      "id":85,
+      "operationDate":"3/26/2023",
+      "title":"Mushroom - Enoki, Dry",
+      "operationDebit":0,
+      "operationProfit":872
+   },
+   {
+      "id":86,
+      "operationDate":"5/27/2023",
+      "title":"Buffalo - Striploin",
+      "operationDebit":0,
+      "operationProfit":14
+   },
+   {
+      "id":87,
+      "operationDate":"10/12/2022",
+      "title":"Ham Black Forest",
+      "operationDebit":0,
+      "operationProfit":14
+   },
+   {
+      "id":88,
+      "operationDate":"2/12/2023",
+      "title":"Potatoes - Parissienne",
+      "operationDebit":0,
+      "operationProfit":824
+   },
+   {
+      "id":89,
+      "operationDate":"3/2/2023",
+      "title":"Dragon Fruit",
+      "operationDebit":0,
+      "operationProfit":139
+   },
+   {
+      "id":90,
+      "operationDate":"4/25/2023",
+      "title":"Nut - Macadamia",
+      "operationDebit":0,
+      "operationProfit":86
+   },
+   {
+      "id":91,
+      "operationDate":"6/15/2022",
+      "title":"Gelatine Leaves - Envelopes",
+      "operationDebit":0,
+      "operationProfit":915
+   },
+   {
+      "id":92,
+      "operationDate":"4/11/2023",
+      "title":"Potato - Sweet",
+      "operationDebit":0,
+      "operationProfit":193
+   },
+   {
+      "id":93,
+      "operationDate":"2/7/2023",
+      "title":"Coffee - Frthy Coffee Crisp",
+      "operationDebit":0,
+      "operationProfit":941
+   },
+   {
+      "id":94,
+      "operationDate":"6/28/2022",
+      "title":"Wine - Clavet Saint Emilion",
+      "operationDebit":0,
+      "operationProfit":180
+   },
+   {
+      "id":95,
+      "operationDate":"7/11/2022",
+      "title":"Beer - Fruli",
+      "operationDebit":0,
+      "operationProfit":665
+   },
+   {
+      "id":96,
+      "operationDate":"3/10/2023",
+      "title":"Crush - Grape, 355 Ml",
+      "operationDebit":0,
+      "operationProfit":446
+   },
+   {
+      "id":97,
+      "operationDate":"11/26/2022",
+      "title":"Towel Multifold",
+      "operationDebit":0,
+      "operationProfit":589
+   },
+   {
+      "id":98,
+      "operationDate":"12/28/2022",
+      "title":"Flower - Carnations",
+      "operationDebit":0,
+      "operationProfit":813
+   },
+   {
+      "id":99,
+      "operationDate":"9/7/2022",
+      "title":"Shrimp - 31/40",
+      "operationDebit":0,
+      "operationProfit":293
+   },
+   {
+      "id":100,
+      "operationDate":"9/12/2022",
+      "title":"Creme De Cacao Mcguines",
+      "operationDebit":0,
+      "operationProfit":270
+   }
+]

@@ -9,10 +9,10 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 public class BankAccount extends JsonSerializable{
     private int id;
+    private int customerId;
     private int accountBalance;
     private String accountType;
     private String creationDate; // Those should be LocalDate but I can not make it work so far...
-    private String title;
     private String closeDate;
 
     public static BankAccount fromJson(String json){

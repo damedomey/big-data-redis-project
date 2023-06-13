@@ -2,7 +2,6 @@ package org.unice;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 import junit.framework.TestCase;
 import org.unice.model.Operation;
@@ -11,7 +10,6 @@ import org.unice.service.OperationService;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
 import java.util.List;
 
 public class OperationTest extends TestCase{
@@ -53,10 +51,9 @@ public class OperationTest extends TestCase{
 
     public void testGetByID() throws RuntimeException{
         try {
-            Operation operation = OperationService.getByID(68);
+            Operation operation = OperationService.getById(68);
             assertEquals( "Coffee Decaf Colombian", operation.getTitle());
         }catch (Exception e){
-                System.out.println(e);
                 e.printStackTrace();
                 throw new RuntimeException();
             }
@@ -69,9 +66,21 @@ public class OperationTest extends TestCase{
             assertEquals(4, operations.get(0).getId());
         }
         catch (Exception e){
-            System.out.println(e);
             e.printStackTrace();
             throw new RuntimeException();
         }
+    }
+
+    public void testUpdateAll() {
+        Operation previousOperation = OperationService.getById(10);
+        OperationService.updateValueForAllOperations("title", "Hello world");
+        Operation currentOperation = OperationService.getById(10);
+        assertNotSame(previousOperation, currentOperation);
+        assertEquals("Hello world", currentOperation.getTitle());
+    }
+
+    public void testDelete() {
+        OperationService.delete(13);
+        assertEquals(99, OperationService.getAll().size());
     }
 }

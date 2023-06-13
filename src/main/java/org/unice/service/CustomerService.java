@@ -2,6 +2,7 @@ package org.unice.service;
 
 import org.unice.config.RedisClient;
 import org.unice.model.Customer;
+import org.unice.model.submodel.Address;
 import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.exceptions.JedisDataException;
 import redis.clients.jedis.search.*;
@@ -42,7 +43,9 @@ public class CustomerService {
     public static List<Customer> getAll(){
         createIndexIfNotExists();
 
-        SearchResult result = database.ftSearch(indexName, "*");
+        Query q = new Query("*").limit(0, 10000);
+
+        SearchResult result = database.ftSearch(indexName, q);
 
         return extractClientsFromResult(result);
     }
@@ -57,6 +60,63 @@ public class CustomerService {
         SearchResult result = database.ftSearch(indexName, "@lastname:" + lastname);
 
         return extractClientsFromResult(result);
+    }
+
+    /**
+     * Update a value for all clients.
+     * @param key The key value define what should be updated.
+     *        The possible values for the key are
+     *            - lastname
+     *            - firstname
+     *            - phone
+     *            - address
+     * @param newValue
+     */
+    public static void updateValueForAllCustomers(String key, String newValue) {
+        List<Customer> customers = getAll();
+        for (Customer customer : customers) {
+            updateValueById(customer.getId(), key, newValue);
+        }
+    }
+
+    /**
+     * Update a value for the client by id.
+     * @param id
+     * @param key The key value define what should be updated.
+     *        The possible values for the key are
+     *            - id
+     *            - lastname
+     *            - firstname
+     *            - phone
+     *            - address
+     * @param newValue
+     */
+    public static void updateValueById(String id, String key, Object newValue) {
+        Customer customer = getById(id);
+        if (customer != null) {
+            switch (key) {
+                case "id":
+                    CustomerService.delete(customer.getId());
+                    customer.setId(newValue.toString());
+                    break;
+                case "lastname":
+                    customer.setLastname(newValue.toString());
+                    break;
+                case "firstname":
+                    customer.setFirstname((List<String>) newValue);
+                    break;
+                case "phone":
+                    customer.setPhone(newValue.toString());
+                    break;
+                case "address":
+                    customer.setAddress((Address) newValue);
+                    break;
+                default:
+                    System.err.println("Unrecognized key to update");
+            }
+            String customerId = commonName + customer.getId();
+            database.jsonSet(customerId, customer.toJson());
+        }
     }
 
     /**

@@ -2,21 +2,22 @@ package org.unice;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 import junit.framework.TestCase;
+import org.junit.FixMethodOrder;
+import org.junit.runners.MethodSorters;
 import org.unice.model.Operation;
 import org.unice.service.OperationService;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
 import java.util.List;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class OperationTest extends TestCase{
     
-    public void testCreateOperation(){
+    public void test1CreateOperation(){
         ObjectMapper objectMapper = new ObjectMapper();
         // objectMapper.registerModule(new JavaTimeModule());
         // SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
@@ -40,7 +41,7 @@ public class OperationTest extends TestCase{
             assertTrue(true);
         }
 
-    public void testGetAllOperations() throws RuntimeException{
+    public void test2GetAllOperations() throws RuntimeException{
         try{
             List<Operation> operations = OperationService.getAll();
             assertEquals(100, operations.size());
@@ -51,27 +52,38 @@ public class OperationTest extends TestCase{
             }
     }
 
-    public void testGetByID() throws RuntimeException{
+    public void test3GetByID() throws RuntimeException{
         try {
-            Operation operation = OperationService.getByID(68);
+            Operation operation = OperationService.getById(68);
             assertEquals( "Coffee Decaf Colombian", operation.getTitle());
         }catch (Exception e){
-                System.out.println(e);
                 e.printStackTrace();
                 throw new RuntimeException();
             }
     }
 
-    public void testGetByTitle() throws RuntimeException{
+    public void test4GetByTitle() throws RuntimeException{
         try{
             List<Operation> operations = OperationService.getByTitle("Potato Dill Pickle");
             assertEquals(1, operations.size() );
             assertEquals(4, operations.get(0).getId());
         }
         catch (Exception e){
-            System.out.println(e);
             e.printStackTrace();
             throw new RuntimeException();
         }
+    }
+
+    public void test5UpdateAll() {
+        Operation previousOperation = OperationService.getById(10);
+        OperationService.updateValueForAllOperations("title", "Hello world");
+        Operation currentOperation = OperationService.getById(10);
+        assertNotSame(previousOperation, currentOperation);
+        assertEquals("Hello world", currentOperation.getTitle());
+    }
+
+    public void test6Delete() {
+        OperationService.delete(13);
+        assertEquals(99, OperationService.getAll().size());
     }
 }

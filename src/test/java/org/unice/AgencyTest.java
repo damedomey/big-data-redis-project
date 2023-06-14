@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import junit.framework.TestCase;
+import org.junit.FixMethodOrder;
+import org.junit.runners.MethodSorters;
 import org.unice.model.Agency;
 import org.unice.service.AgencyService;
 
@@ -12,9 +14,10 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class AgencyTest extends TestCase {
     
-    public void testCreateAgencies(){
+    public void test1CreateAgencies(){
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             File file = Paths.get("src", "main", "resources", "agencies.json").toFile();
@@ -35,7 +38,7 @@ public class AgencyTest extends TestCase {
             assertTrue(true);
     }
 
-    public void testGetAllAgencies() throws RuntimeException{
+    public void test2GetAllAgencies() throws RuntimeException{
         try{
             List<Agency> agencies = AgencyService.getAll();
             assertEquals(50, agencies.size());
@@ -46,7 +49,7 @@ public class AgencyTest extends TestCase {
             }
     }
 
-    public void testGetByID() throws RuntimeException{
+    public void test3GetByID() throws RuntimeException{
         try {
             Agency agency = AgencyService.getByID(4);
             assertEquals( "Peoples Bancorp Inc.", agency.getName());
@@ -57,7 +60,7 @@ public class AgencyTest extends TestCase {
             }
     }
 
-    public void testGetByName() throws RuntimeException{
+    public void test4GetByName() throws RuntimeException{
         try{
             List<Agency> agencies = AgencyService.getByName("Potbelly Corporation");
             assertEquals(1, agencies.size() );

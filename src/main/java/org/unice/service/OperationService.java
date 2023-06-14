@@ -12,6 +12,7 @@ import redis.clients.jedis.search.schemafields.NumericField;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Date;
 
 
 public class OperationService {
@@ -90,7 +91,7 @@ public class OperationService {
                     operation.setId((int) newValue);
                     break;
                 case "operationDate":
-                    operation.setOperationDate(newValue.toString());
+                    operation.setOperationDate((Date) newValue);
                     break;
                 case "title":
                     operation.setTitle(newValue.toString());

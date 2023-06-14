@@ -19,9 +19,6 @@ public class OperationTest extends TestCase{
     
     public void test1CreateOperation(){
         ObjectMapper objectMapper = new ObjectMapper();
-        // objectMapper.registerModule(new JavaTimeModule());
-        // SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy");
-        // objectMapper.setDateFormat(df);
         try {
             File file = Paths.get("src", "main", "resources", "operations.json").toFile();
             List<Operation> operations = objectMapper

@@ -57,10 +57,11 @@ public class OperationService {
      * Update a value for all operations.
      * @param key The key value define what should be updated.
      *        The possible values for the key are
-     *            - lastname
-     *            - firstname
-     *            - phone
-     *            - address
+     *             - id
+     *            - title
+     *            - operationDate
+     *            - operationDebit
+     *            - operationProfit
      * @param newValue
      */
     public static void updateValueForAllOperations(String key, String newValue) {

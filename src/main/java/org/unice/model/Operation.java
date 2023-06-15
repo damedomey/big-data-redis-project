@@ -1,6 +1,7 @@
 package org.unice.model;
 
-import java.time.LocalDate;
+import java.time.Instant;
+import java.util.Date;
 import lombok.*;
 
 
@@ -10,12 +11,19 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 public class Operation extends JsonSerializable{
     private int id;
-    private String operationDate; // This should be LocalDate but I can not make it work so far...
+    private Date operationDate = Date.from(Instant.now());
     private String title;
     private int operationDebit;
     private int operationProfit;
     
     public static Operation fromJson(String json){
         return fromJson(json, Operation.class);
+    }
+
+    public Operation(int id, String title, int operationDebit, int operationProfit){
+        this.id = id;
+        this.title = title;
+        this.operationDebit = operationDebit;
+        this.operationProfit = operationProfit;
     }
 }

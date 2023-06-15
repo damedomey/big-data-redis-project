@@ -12,6 +12,7 @@ import redis.clients.jedis.search.schemafields.NumericField;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Date;
 
 
 public class OperationService {
@@ -36,7 +37,7 @@ public class OperationService {
         return extractOperationsFromResult(result);
     }
 
-    public static Operation getByID(int id){
+    public static Operation getById(int id){
         return database.jsonGet(commonName + id, Operation.class);
     }
 
@@ -51,6 +52,65 @@ public class OperationService {
         SearchResult result = database.ftSearch(indexName, q); 
         return extractOperationsFromResult(result);
     }
+
+    /**
+     * Update a value for all operations.
+     * @param key The key value define what should be updated.
+     *        The possible values for the key are
+     *             - id
+     *            - title
+     *            - operationDate
+     *            - operationDebit
+     *            - operationProfit
+     * @param newValue
+     */
+    public static void updateValueForAllOperations(String key, String newValue) {
+        List<Operation> operations = getAll();
+        for (Operation operation : operations) {
+            updateValueById(operation.getId(), key, newValue);
+        }
+    }
+
+    /**
+     * Update a value for the operation by id.
+     * @param id
+     * @param key The key value define what should be updated.
+     *        The possible values for the key are
+     *            - id
+     *            - title
+     *            - operationDate
+     *            - operationDebit
+     *            - operationProfit
+     * @param newValue
+     */
+    public static void updateValueById(int id, String key, Object newValue) {
+        Operation operation = getById(id);
+        if (operation != null) {
+            switch (key) {
+                case "id":
+                    OperationService.delete(operation.getId());
+                    operation.setId((int) newValue);
+                    break;
+                case "operationDate":
+                    operation.setOperationDate((Date) newValue);
+                    break;
+                case "title":
+                    operation.setTitle(newValue.toString());
+                    break;
+                case "operationDebit":
+                    operation.setOperationDebit((int) newValue);
+                    break;
+                case "operationProfit":
+                    operation.setOperationProfit((int) newValue);
+                    break;
+                default:
+                    System.err.println("Unrecognized key to update");
+            }
+            String operationId = commonName + operation.getId();
+            database.jsonSet(operationId, operation.toJson());
+        }
+    }
+
 
     /**
      * Delete an opeartion by id

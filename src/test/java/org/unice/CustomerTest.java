@@ -44,7 +44,7 @@ public class CustomerTest extends TestCase {
     }
 
     public void test3GetByID() throws RuntimeException{
-        Customer customer = CustomerService.getById("1");
+        Customer customer = CustomerService.getById(1);
         assertEquals( "Mattecot", customer.getLastname());
     }
 
@@ -54,15 +54,15 @@ public class CustomerTest extends TestCase {
      * update by id anymore. The success of this test means update by id work.
      */
     public void test4UpdateAll() {
-        Customer previousCustomer = CustomerService.getById("10");
+        Customer previousCustomer = CustomerService.getById(10);
         CustomerService.updateValueForAllCustomers("lastname", "Hello world");
-        Customer currentCustomer = CustomerService.getById("10");
+        Customer currentCustomer = CustomerService.getById(10);
         assertNotSame(previousCustomer, currentCustomer);
         assertEquals("Hello world", currentCustomer.getLastname());
     }
 
     public void test5Delete() {
-        CustomerService.delete("13");
+        CustomerService.delete(13);
         assertEquals(99, CustomerService.getAll().size());
     }
 }

@@ -1,6 +1,6 @@
 package org.unice.model;
 
-import java.time.LocalDate;
+import java.util.Date;
 import lombok.*;
 
 @Data
@@ -9,11 +9,12 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 public class BankAccount extends JsonSerializable{
     private int id;
+    private String accountNumber;
     private int customerId;
     private int accountBalance;
     private String accountType;
-    private String creationDate; // Those should be LocalDate but I can not make it work so far...
-    private String closeDate;
+    private Date creationDate;
+    private Date closeDate;
 
     public static BankAccount fromJson(String json){
         return fromJson(json, BankAccount.class);

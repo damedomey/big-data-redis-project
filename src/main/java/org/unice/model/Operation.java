@@ -15,15 +15,20 @@ public class Operation extends JsonSerializable{
     private String title;
     private int operationDebit;
     private int operationProfit;
+    private String beneficiaryAccount;
+    private String payerAccount;
     
     public static Operation fromJson(String json){
         return fromJson(json, Operation.class);
     }
 
-    public Operation(int id, String title, int operationDebit, int operationProfit){
+    public Operation(int id, String title, int operationDebit, int operationProfit, 
+                    String beneficiaryAccount, String payerAccount){
         this.id = id;
         this.title = title;
         this.operationDebit = operationDebit;
         this.operationProfit = operationProfit;
+        this.beneficiaryAccount = beneficiaryAccount;
+        this.payerAccount = payerAccount;
     }
 }

@@ -1,6 +1,7 @@
 package org.unice.model;
 
-import java.time.LocalDate;
+import java.time.Instant;
+import java.util.Date;
 import lombok.*;
 
 
@@ -11,7 +12,8 @@ import lombok.*;
 public class BankAgent extends JsonSerializable{
     private int id;
     private String name;
-    private String hiringDate;  // This should be LocalDate but I can not make it work so far...
+    private int bankId;
+    private Date hiringDate = Date.from(Instant.now());
 
     public static BankAgent fromJson(String json){
         return fromJson(json, BankAgent.class);

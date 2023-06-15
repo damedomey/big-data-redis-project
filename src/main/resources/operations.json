@@ -1,702 +1,1802 @@
 [
    {
       "id":1,
-      "operationDate":"2022-09-13",
-      "title":"Tea - Herbal I Love Lemon",
-      "operationDebit":921,
-      "operationProfit":0
+      "operationDate":"2022-06-18",
+      "title":"Sage - Ground",
+      "operationDebit":4662,
+      "operationProfit":0,
+      "beneficiaryAccount":"IT96 O316 9329 792Q ERRC J0AT VYO",
+      "payerAccount":"MT88 DRSA 7373 0S5I TZ1O AG9R ZCSU IJC"
    },
    {
       "id":2,
-      "operationDate":"2022-09-13",
-      "title":"Oxtail - Cut",
-      "operationDebit":753,
-      "operationProfit":0
+      "operationDate":"2023-04-23",
+      "title":"Halibut - Steaks",
+      "operationDebit":8249,
+      "operationProfit":0,
+      "beneficiaryAccount":"SA95 86HA TNMS IZCN EJLV PGKS",
+      "payerAccount":"EE10 8694 7048 3354 1559"
    },
    {
       "id":3,
-      "operationDate":"2022-09-13",
-      "title":"Extract - Vanilla,artificial",
-      "operationDebit":950,
-      "operationProfit":0
+      "operationDate":"2023-02-23",
+      "title":"Bread - Raisin Walnut Oval",
+      "operationDebit":8107,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR54 7752 6060 72UO KB3X ODNC K84",
+      "payerAccount":"LV36 MKWA MTLZ TGAX OTYE 3"
    },
    {
       "id":4,
-      "operationDate":"2022-09-13",
-      "title":"Chip - Potato Dill Pickle",
-      "operationDebit":164,
-      "operationProfit":0
+      "operationDate":"2022-10-30",
+      "title":"Garbage Bags - Black",
+      "operationDebit":5734,
+      "operationProfit":0,
+      "beneficiaryAccount":"DO55 SBPO 7956 2961 3455 1834 6607",
+      "payerAccount":"IE20 ZDGC 0058 1924 9614 37"
    },
    {
       "id":5,
       "operationDate":"2022-09-13",
-      "title":"Praline Paste",
-      "operationDebit":131,
-      "operationProfit":0
+      "title":"Wine - Tio Pepe Sherry Fino",
+      "operationDebit":7995,
+      "operationProfit":0,
+      "beneficiaryAccount":"AL25 0521 7187 AFR9 ZEV1 K7DJ JUH8",
+      "payerAccount":"MR88 6376 4009 2956 2679 3893 426"
    },
    {
       "id":6,
-      "operationDate":"2022-09-13",
-      "title":"Cardamon Seed / Pod",
-      "operationDebit":272,
-      "operationProfit":0
+      "operationDate":"2023-04-14",
+      "title":"French Pastries",
+      "operationDebit":6446,
+      "operationProfit":0,
+      "beneficiaryAccount":"CZ24 3765 9817 0311 4490 8449",
+      "payerAccount":"FR68 3365 0140 966Y L3VI 1UFC V01"
    },
    {
       "id":7,
-      "operationDate":"2022-09-13",
-      "title":"Cheese - Comtomme",
-      "operationDebit":939,
-      "operationProfit":0
+      "operationDate":"2022-06-28",
+      "title":"Turnip - White",
+      "operationDebit":8037,
+      "operationProfit":0,
+      "beneficiaryAccount":"BR24 5629 5736 9222 4960 7263 495H Y",
+      "payerAccount":"LU85 942L V2IM A7TD 3ZNU"
    },
    {
       "id":8,
-      "operationDate":"2022-09-13",
-      "title":"Stock - Beef, White",
-      "operationDebit":7,
-      "operationProfit":0
+      "operationDate":"2022-09-18",
+      "title":"Lamb - Whole, Frozen",
+      "operationDebit":3391,
+      "operationProfit":0,
+      "beneficiaryAccount":"LB47 7641 QLEW 7BXR SBWX EJH2 CTW3",
+      "payerAccount":"BA29 7707 1627 3946 6250"
    },
    {
       "id":9,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Rubyport",
-      "operationDebit":615,
-      "operationProfit":0
+      "operationDate":"2023-03-03",
+      "title":"Shrimp - 16/20, Peeled Deviened",
+      "operationDebit":6158,
+      "operationProfit":0,
+      "beneficiaryAccount":"MU34 SOLO 9006 0454 4483 5459 231N XF",
+      "payerAccount":"GI96 TVRU WVRK FLLI 7JCK E7W"
    },
    {
       "id":10,
-      "operationDate":"2022-09-13",
-      "title":"Skirt - 29 Foot",
-      "operationDebit":75,
-      "operationProfit":0
+      "operationDate":"2022-10-31",
+      "title":"Island Oasis - Peach Daiquiri",
+      "operationDebit":6543,
+      "operationProfit":0,
+      "beneficiaryAccount":"MD04 Z1GQ VVHF OBNO PENZ 3FIB",
+      "payerAccount":"RO22 IPYB 95V8 59DR FYAE 96OY"
    },
    {
       "id":11,
-      "operationDate":"2022-09-13",
-      "title":"Oranges - Navel, 72",
-      "operationDebit":403,
-      "operationProfit":0
+      "operationDate":"2023-03-03",
+      "title":"Bread - Pita, Mini",
+      "operationDebit":8788,
+      "operationProfit":0,
+      "beneficiaryAccount":"DO04 K4AZ 6258 7846 8664 1778 6070",
+      "payerAccount":"FR07 4503 4580 150X OZIM F7WA O36"
    },
    {
       "id":12,
-      "operationDate":"2022-09-13",
-      "title":"Coconut Milk - Unsweetened",
-      "operationDebit":440,
-      "operationProfit":0
+      "operationDate":"2023-05-29",
+      "title":"Mushroom - Porcini Frozen",
+      "operationDebit":7622,
+      "operationProfit":0,
+      "beneficiaryAccount":"ME94 7780 2458 5315 4408 82",
+      "payerAccount":"SA56 32AD EFTZ YH3M TVEO EQZY"
    },
    {
       "id":13,
-      "operationDate":"2022-09-13",
-      "title":"Salsify, Organic",
-      "operationDebit":777,
-      "operationProfit":0
+      "operationDate":"2023-06-09",
+      "title":"Beef - Bones, Marrow",
+      "operationDebit":8810,
+      "operationProfit":0,
+      "beneficiaryAccount":"TR48 7459 3DBD QJXW O9CU VQOJ LS",
+      "payerAccount":"FR34 3302 3377 55LA FZGB WAD3 K88"
    },
    {
       "id":14,
-      "operationDate":"2022-09-13",
-      "title":"Eggplant - Baby",
-      "operationDebit":520,
-      "operationProfit":0
+      "operationDate":"2023-05-22",
+      "title":"Beer - Alexander Kieths, Pale Ale",
+      "operationDebit":5188,
+      "operationProfit":0,
+      "beneficiaryAccount":"SM77 Q323 1370 980X C1FK 79CE MWY",
+      "payerAccount":"EE54 0577 1142 4636 0659"
    },
    {
       "id":15,
-      "operationDate":"2022-09-13",
-      "title":"General Purpose Trigger",
-      "operationDebit":770,
-      "operationProfit":0
+      "operationDate":"2022-10-23",
+      "title":"Herb Du Provence - Primerba",
+      "operationDebit":5837,
+      "operationProfit":0,
+      "beneficiaryAccount":"IS54 2728 7811 4337 3165 5655 88",
+      "payerAccount":"CY66 2679 3896 TWGE 6LIV BL6B ZZBE"
    },
    {
       "id":16,
-      "operationDate":"2022-09-13",
-      "title":"Tarts Assorted",
-      "operationDebit":650,
-      "operationProfit":0
+      "operationDate":"2022-07-16",
+      "title":"Pork - Belly Fresh",
+      "operationDebit":9339,
+      "operationProfit":0,
+      "beneficiaryAccount":"CZ35 4262 0090 0487 0284 4325",
+      "payerAccount":"GI82 PCNG MK23 NI8S ZAXU CJQ"
    },
    {
       "id":17,
-      "operationDate":"2022-09-13",
-      "title":"Scotch - Queen Anne",
-      "operationDebit":292,
-      "operationProfit":0
+      "operationDate":"2023-02-11",
+      "title":"Cranberries - Dry",
+      "operationDebit":4260,
+      "operationProfit":0,
+      "beneficiaryAccount":"MD74 7DTX SOSO NVJA LFFC DK9G",
+      "payerAccount":"FR42 4830 8870 9074 JLIW AS8X B41"
    },
    {
       "id":18,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Mondavi Coastal Private",
-      "operationDebit":919,
-      "operationProfit":0
+      "operationDate":"2023-03-25",
+      "title":"Soup Campbells - Italian Wedding",
+      "operationDebit":8933,
+      "operationProfit":0,
+      "beneficiaryAccount":"IS13 7044 3103 9307 4665 5264 81",
+      "payerAccount":"FR66 1244 3822 057D 1STV ZFAL F69"
    },
    {
       "id":19,
-      "operationDate":"2022-09-13",
-      "title":"Placemat - Scallop, White",
-      "operationDebit":92,
-      "operationProfit":0
+      "operationDate":"2022-10-04",
+      "title":"Carbonated Water - Peach",
+      "operationDebit":8332,
+      "operationProfit":0,
+      "beneficiaryAccount":"MC51 3844 1988 463H 2BON LDE7 D22",
+      "payerAccount":"PL50 8086 2642 6814 7096 0005 9124"
    },
    {
       "id":20,
-      "operationDate":"2022-09-13",
-      "title":"Lobster - Base",
-      "operationDebit":648,
-      "operationProfit":0
+      "operationDate":"2023-05-17",
+      "title":"Juice - V8, Tomato",
+      "operationDebit":6952,
+      "operationProfit":0,
+      "beneficiaryAccount":"HR83 6954 2283 3058 2827 1",
+      "payerAccount":"MK61 636T 2TP4 KVFG 173"
    },
    {
       "id":21,
-      "operationDate":"2022-09-13",
-      "title":"Onions - Cippolini",
-      "operationDebit":912,
-      "operationProfit":0
+      "operationDate":"2023-02-01",
+      "title":"Plasticknivesblack",
+      "operationDebit":5561,
+      "operationProfit":0,
+      "beneficiaryAccount":"FO65 4639 6579 5926 73",
+      "payerAccount":"FI92 9317 9190 1184 83"
    },
    {
       "id":22,
-      "operationDate":"2022-09-13",
-      "title":"Bread - Assorted Rolls",
-      "operationDebit":747,
-      "operationProfit":0
+      "operationDate":"2023-02-05",
+      "title":"Molasses - Fancy",
+      "operationDebit":8758,
+      "operationProfit":0,
+      "beneficiaryAccount":"PS38 RRFR GXA0 XXRS OCMX NNSS UG2F R",
+      "payerAccount":"IS37 1843 2156 7565 7202 5634 22"
    },
    {
       "id":23,
-      "operationDate":"2022-09-13",
-      "title":"Cake - Pancake",
-      "operationDebit":733,
-      "operationProfit":0
+      "operationDate":"2023-01-02",
+      "title":"Currants",
+      "operationDebit":3262,
+      "operationProfit":0,
+      "beneficiaryAccount":"LT39 0683 3754 7632 1335",
+      "payerAccount":"FR16 1067 2196 35NK A3QO RQDS G46"
    },
    {
       "id":24,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Cave Springs Dry Riesling",
-      "operationDebit":289,
-      "operationProfit":0
+      "operationDate":"2022-12-28",
+      "title":"Veal - Tenderloin, Untrimmed",
+      "operationDebit":237,
+      "operationProfit":0,
+      "beneficiaryAccount":"RO47 ULTE GFEE 9WQL 2A2B 93HC",
+      "payerAccount":"DK25 5593 6605 3991 42"
    },
    {
       "id":25,
-      "operationDate":"2022-09-13",
-      "title":"Muffin - Banana Nut Individual",
-      "operationDebit":809,
-      "operationProfit":0
+      "operationDate":"2023-01-25",
+      "title":"Roe - Lump Fish, Black",
+      "operationDebit":5663,
+      "operationProfit":0,
+      "beneficiaryAccount":"PL53 8507 2043 2230 4696 9170 8845",
+      "payerAccount":"LV51 IUVK FUSO BYV0 50SD L"
    },
    {
       "id":26,
-      "operationDate":"2022-09-13",
-      "title":"Coconut - Whole",
-      "operationDebit":933,
-      "operationProfit":0
+      "operationDate":"2022-07-01",
+      "title":"Grand Marnier",
+      "operationDebit":6875,
+      "operationProfit":0,
+      "beneficiaryAccount":"MR16 4693 3545 7889 8230 1112 248",
+      "payerAccount":"AT66 8246 9121 0933 0243"
    },
    {
       "id":27,
-      "operationDate":"2022-09-13",
-      "title":"Clementine",
-      "operationDebit":146,
-      "operationProfit":0
+      "operationDate":"2023-02-12",
+      "title":"Apple - Macintosh",
+      "operationDebit":4841,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR05 3382 7390 96WX 8LZU JZ3J B74",
+      "payerAccount":"LT19 6039 8935 4087 7679"
    },
    {
       "id":28,
-      "operationDate":"2022-09-13",
-      "title":"Potatoes - Pei 10 Oz",
-      "operationDebit":444,
-      "operationProfit":0
+      "operationDate":"2022-11-10",
+      "title":"Wine - Zinfandel California 2002",
+      "operationDebit":8085,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR97 0553 6805 53TJ DZ1F P9YJ D12",
+      "payerAccount":"RO38 YUPM 2XCT SRPF AHM3 W5FP"
    },
    {
       "id":29,
-      "operationDate":"2022-09-13",
-      "title":"Soup - French Can Pea",
-      "operationDebit":989,
-      "operationProfit":0
+      "operationDate":"2022-11-22",
+      "title":"Cheese - Cambozola",
+      "operationDebit":470,
+      "operationProfit":0,
+      "beneficiaryAccount":"PS51 LWWC E9HE LAAS QOIV IUKF BJM4 Z",
+      "payerAccount":"FR88 2057 5389 67AZ 9NSU VC1U F07"
    },
    {
       "id":30,
-      "operationDate":"2022-09-13",
-      "title":"Yokaline",
-      "operationDebit":37,
-      "operationProfit":0
+      "operationDate":"2022-12-07",
+      "title":"Wine - Zinfandel California 2002",
+      "operationDebit":2742,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR91 0607 2173 70YX ZRXS AVNG J85",
+      "payerAccount":"GL05 8573 7870 8370 65"
    },
    {
       "id":31,
-      "operationDate":"2022-09-13",
-      "title":"Pepsi - 600ml",
-      "operationDebit":714,
-      "operationProfit":0
+      "operationDate":"2023-03-02",
+      "title":"Pea - Snow",
+      "operationDebit":4516,
+      "operationProfit":0,
+      "beneficiaryAccount":"CH83 7562 2QFE IT1W 8NWI D",
+      "payerAccount":"SA19 90PU OK0C GWTC 6KNV 3FSV"
    },
    {
       "id":32,
-      "operationDate":"2022-09-13",
-      "title":"Croissant, Raw - Mini",
-      "operationDebit":360,
-      "operationProfit":0
+      "operationDate":"2023-05-20",
+      "title":"Shrimp - Prawn",
+      "operationDebit":7877,
+      "operationProfit":0,
+      "beneficiaryAccount":"BE95 6911 4307 5309",
+      "payerAccount":"CH62 0186 2B68 IAYO SEVH U"
    },
    {
       "id":33,
-      "operationDate":"2022-09-13",
-      "title":"Cheese - Swiss",
-      "operationDebit":68,
-      "operationProfit":0
+      "operationDate":"2023-04-05",
+      "title":"Cheese - Manchego, Spanish",
+      "operationDebit":5208,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR70 1896 8927 536O 75OA HY5M I44",
+      "payerAccount":"ES05 4759 2846 8783 9971 2429"
    },
    {
       "id":34,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Red, Metus Rose",
-      "operationDebit":819,
-      "operationProfit":0
+      "operationDate":"2022-12-07",
+      "title":"Coffee Cup 8oz 5338cd",
+      "operationDebit":3965,
+      "operationProfit":0,
+      "beneficiaryAccount":"MD67 ELLZ J1OJ 8JOQ XHI4 AQHF",
+      "payerAccount":"FR39 2933 6132 63EF V73Z H0VW R89"
    },
    {
       "id":35,
-      "operationDate":"2022-09-13",
-      "title":"Cocoa Powder - Dutched",
-      "operationDebit":44,
-      "operationProfit":0
+      "operationDate":"2023-04-22",
+      "title":"Table Cloth 72x144 White",
+      "operationDebit":2723,
+      "operationProfit":0,
+      "beneficiaryAccount":"RO03 EVNQ BTQK 3ALL EGWK EFHJ",
+      "payerAccount":"FR44 5626 7514 73DF V4BR T7YR R20"
    },
    {
       "id":36,
-      "operationDate":"2022-09-13",
-      "title":"Cod - Black Whole Fillet",
-      "operationDebit":575,
-      "operationProfit":0
+      "operationDate":"2023-06-12",
+      "title":"V8 Pet",
+      "operationDebit":8324,
+      "operationProfit":0,
+      "beneficiaryAccount":"LI44 2276 3NAD TFZN FUCM M",
+      "payerAccount":"BR24 6030 7214 2279 5001 6242 521K D"
    },
    {
       "id":37,
-      "operationDate":"2022-09-13",
-      "title":"Cheese - Brie, Cups 125g",
-      "operationDebit":531,
-      "operationProfit":0
+      "operationDate":"2023-04-30",
+      "title":"Dried Cherries",
+      "operationDebit":3574,
+      "operationProfit":0,
+      "beneficiaryAccount":"LB28 6712 QFF2 VBNN GT7Q PYTT L0OP",
+      "payerAccount":"MT26 BWNK 8778 11BT SF93 TFWM 1LY9 PJ4"
    },
    {
       "id":38,
-      "operationDate":"2022-09-13",
-      "title":"Doilies - 10, Paper",
-      "operationDebit":127,
-      "operationProfit":0
+      "operationDate":"2023-01-04",
+      "title":"Pepper - Red Bell",
+      "operationDebit":7070,
+      "operationProfit":0,
+      "beneficiaryAccount":"BH70 QHTQ AE4D 8YJF TVZV MP",
+      "payerAccount":"HU51 4181 4541 1288 7328 1662 6715"
    },
    {
       "id":39,
-      "operationDate":"2022-09-13",
-      "title":"Daikon Radish",
-      "operationDebit":744,
-      "operationProfit":0
+      "operationDate":"2023-01-11",
+      "title":"Table Cloth 53x53 White",
+      "operationDebit":8976,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR13 1749 8581 27WH 5YZW UWPH 344",
+      "payerAccount":"PL89 0213 7563 0896 9205 4001 1757"
    },
    {
       "id":40,
-      "operationDate":"2022-09-13",
-      "title":"Capicola - Hot",
-      "operationDebit":574,
-      "operationProfit":0
+      "operationDate":"2023-01-27",
+      "title":"Fudge - Chocolate Fudge",
+      "operationDebit":1456,
+      "operationProfit":0,
+      "beneficiaryAccount":"GE86 BN27 0222 5994 6515 09",
+      "payerAccount":"FR44 5304 5600 75LO 0WPF RBQO I92"
    },
    {
       "id":41,
-      "operationDate":"2022-09-13",
-      "title":"Zucchini - Yellow",
-      "operationDebit":35,
-      "operationProfit":0
+      "operationDate":"2023-04-05",
+      "title":"Squid - U - 10 Thailand",
+      "operationDebit":7600,
+      "operationProfit":0,
+      "beneficiaryAccount":"CZ03 8256 6461 3705 3673 9797",
+      "payerAccount":"LU41 3815 WUQW SFOC TIRH"
    },
    {
       "id":42,
-      "operationDate":"2022-09-13",
-      "title":"Longos - Lasagna Beef",
-      "operationDebit":708,
-      "operationProfit":0
+      "operationDate":"2022-09-21",
+      "title":"Placemat - Scallop, White",
+      "operationDebit":3862,
+      "operationProfit":0,
+      "beneficiaryAccount":"TR96 8056 6Y5S JRDC B5RF HRE6 TG",
+      "payerAccount":"FR46 9748 4432 23UF BB2S GNFQ F35"
    },
    {
       "id":43,
-      "operationDate":"2022-09-13",
-      "title":"Fork - Plastic",
-      "operationDebit":913,
-      "operationProfit":0
+      "operationDate":"2023-01-23",
+      "title":"Bay Leaf Fresh",
+      "operationDebit":1928,
+      "operationProfit":0,
+      "beneficiaryAccount":"PS79 FIEP 0DU7 RHP4 DYCT VG9D UUJO O",
+      "payerAccount":"FR17 2765 0196 95NZ 8H0G HWVV I85"
    },
    {
       "id":44,
-      "operationDate":"2022-09-13",
-      "title":"Rhubarb",
-      "operationDebit":252,
-      "operationProfit":0
+      "operationDate":"2023-02-26",
+      "title":"Rice - Wild",
+      "operationDebit":4991,
+      "operationProfit":0,
+      "beneficiaryAccount":"IT72 C750 1328 685T EZEU PUCI EVP",
+      "payerAccount":"SE30 4217 8569 3796 4431 1617"
    },
    {
       "id":45,
-      "operationDate":"2022-09-13",
-      "title":"Vinegar - White",
-      "operationDebit":649,
-      "operationProfit":0
+      "operationDate":"2022-12-11",
+      "title":"Honey - Comb",
+      "operationDebit":4466,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR83 9490 1947 55F5 U3XX G35L G11",
+      "payerAccount":"FR28 3903 4721 18A2 ILAH PXFE L18"
    },
    {
       "id":46,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Chateauneuf Du Pape",
-      "operationDebit":171,
-      "operationProfit":0
+      "operationDate":"2022-11-23",
+      "title":"Wine - Red, Black Opal Shiraz",
+      "operationDebit":7683,
+      "operationProfit":0,
+      "beneficiaryAccount":"AD26 2097 3727 LBRK Z9AI 5SBF",
+      "payerAccount":"DO31 HY8Y 4071 9325 3649 2641 0845"
    },
    {
       "id":47,
       "operationDate":"2022-09-13",
-      "title":"Extract - Rum",
-      "operationDebit":508,
-      "operationProfit":0
+      "title":"Wine - Winzer Krems Gruner",
+      "operationDebit":7209,
+      "operationProfit":0,
+      "beneficiaryAccount":"MU38 YZLP 0726 8326 8949 1956 290W ST",
+      "payerAccount":"FR22 3084 5704 34JE 0BIY 61GF E52"
    },
    {
       "id":48,
-      "operationDate":"2022-09-13",
-      "title":"Pork - Caul Fat",
-      "operationDebit":156,
-      "operationProfit":0
+      "operationDate":"2023-03-01",
+      "title":"Sauce - Gravy, Au Jus, Mix",
+      "operationDebit":412,
+      "operationProfit":0,
+      "beneficiaryAccount":"LV93 XZZR DK9V NQGY K2DH 9",
+      "payerAccount":"SK56 9914 5295 3550 7996 5374"
    },
    {
       "id":49,
-      "operationDate":"2022-09-13",
-      "title":"Pepper - Pablano",
-      "operationDebit":960,
-      "operationProfit":0
+      "operationDate":"2023-05-25",
+      "title":"Phyllo Dough",
+      "operationDebit":3845,
+      "operationProfit":0,
+      "beneficiaryAccount":"MU81 UTMN 7192 7011 7823 1468 834D UC",
+      "payerAccount":"FR05 7272 8878 11DB FKF8 HZAU D11"
    },
    {
       "id":50,
-      "operationDate":"2022-09-13",
-      "title":"Corn - On The Cob",
-      "operationDebit":992,
-      "operationProfit":0
+      "operationDate":"2022-11-13",
+      "title":"Durian Fruit",
+      "operationDebit":1375,
+      "operationProfit":0,
+      "beneficiaryAccount":"MK68 850H KCCV HGRU K39",
+      "payerAccount":"NL51 MDTD 0159 7521 07"
    },
    {
       "id":51,
-      "operationDate":"2022-09-13",
-      "title":"Table Cloth - 53x69 Colour",
-      "operationDebit":0,
-      "operationProfit":54
+      "operationDate":"2022-08-12",
+      "title":"Goldschalger",
+      "operationDebit":1812,
+      "operationProfit":0,
+      "beneficiaryAccount":"LB26 2139 QNQB AAS9 FXQT UWB1 YY4E",
+      "payerAccount":"LT70 1534 7694 6331 5234"
    },
    {
       "id":52,
-      "operationDate":"2022-09-13",
-      "title":"Pepper - Gypsy Pepper",
-      "operationDebit":0,
-      "operationProfit":180
+      "operationDate":"2022-10-31",
+      "title":"Daves Island Stinger",
+      "operationDebit":2892,
+      "operationProfit":0,
+      "beneficiaryAccount":"FI53 9975 0590 6396 31",
+      "payerAccount":"LB26 6091 RHNE U4VD CAFO FPNU TCKF"
    },
    {
       "id":53,
-      "operationDate":"2022-09-13",
-      "title":"Hot Chocolate - Individual",
-      "operationDebit":0,
-      "operationProfit":960
+      "operationDate":"2022-10-09",
+      "title":"Pasta - Fett Alfredo, Single Serve",
+      "operationDebit":2488,
+      "operationProfit":0,
+      "beneficiaryAccount":"MU24 QQLS 0682 2339 7406 9484 247R OD",
+      "payerAccount":"NO94 0667 8805 987"
    },
    {
       "id":54,
-      "operationDate":"2022-09-13",
-      "title":"Sprite, Diet - 355ml",
-      "operationDebit":0,
-      "operationProfit":202
+      "operationDate":"2023-02-14",
+      "title":"Iced Tea Concentrate",
+      "operationDebit":2143,
+      "operationProfit":0,
+      "beneficiaryAccount":"DO32 GBBZ 9841 0008 9479 2520 8620",
+      "payerAccount":"TR06 6553 7KHY 7BYX KNJ4 MCU6 XY"
    },
    {
       "id":55,
-      "operationDate":"2022-09-13",
-      "title":"Lettuce - Frisee",
-      "operationDebit":0,
-      "operationProfit":618
+      "operationDate":"2022-07-20",
+      "title":"Burger Veggie",
+      "operationDebit":7710,
+      "operationProfit":0,
+      "beneficiaryAccount":"SM98 Z806 0470 778G A2YL ROHU OUS",
+      "payerAccount":"SA54 57C4 T66Y EDWK UOTO LO2N"
    },
    {
       "id":56,
-      "operationDate":"2022-09-13",
-      "title":"Parsnip",
-      "operationDebit":0,
-      "operationProfit":340
+      "operationDate":"2022-07-31",
+      "title":"Veal - Brisket, Provimi,bnls",
+      "operationDebit":83,
+      "operationProfit":0,
+      "beneficiaryAccount":"GT96 PXBO GDEK OKVM CBAA 8YUA DDTL",
+      "payerAccount":"CZ74 3998 8062 2359 4238 8219"
    },
    {
       "id":57,
-      "operationDate":"2022-09-13",
-      "title":"Muffin Mix - Lemon Cranberry",
-      "operationDebit":0,
-      "operationProfit":825
+      "operationDate":"2022-08-05",
+      "title":"Clementine",
+      "operationDebit":2697,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR94 7497 3057 93PH LML2 FYNI S17",
+      "payerAccount":"KW80 RJJD FWTC JEZV JBF9 B7HN YVTV JX"
    },
    {
       "id":58,
-      "operationDate":"2022-09-13",
-      "title":"Spinach - Frozen",
-      "operationDebit":0,
-      "operationProfit":92
+      "operationDate":"2022-10-05",
+      "title":"Turkey Leg With Drum And Thigh",
+      "operationDebit":503,
+      "operationProfit":0,
+      "beneficiaryAccount":"MR55 8289 5257 6369 7349 0905 146",
+      "payerAccount":"FR16 4792 8488 31DH FTYA ZFJI C60"
    },
    {
       "id":59,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Harrow Estates, Vidal",
-      "operationDebit":0,
-      "operationProfit":534
+      "operationDate":"2023-04-06",
+      "title":"Beef - Outside, Round",
+      "operationDebit":4033,
+      "operationProfit":0,
+      "beneficiaryAccount":"AZ72 UKLK VJJ1 CSE3 UROM VCGZ MFCJ",
+      "payerAccount":"FR86 9634 7070 95OL 6O1J FAQB F62"
    },
    {
       "id":60,
-      "operationDate":"2022-09-13",
-      "title":"Lettuce - Mini Greens, Whole",
-      "operationDebit":0,
-      "operationProfit":432
+      "operationDate":"2023-02-06",
+      "title":"Venison - Striploin",
+      "operationDebit":2257,
+      "operationProfit":0,
+      "beneficiaryAccount":"PL83 2635 2984 1984 1033 2505 4781",
+      "payerAccount":"LI61 6423 51LT 1ZFY RGQH I"
    },
    {
       "id":61,
-      "operationDate":"2022-09-13",
-      "title":"Compound - Strawberry",
-      "operationDebit":0,
-      "operationProfit":565
+      "operationDate":"2022-08-28",
+      "title":"Chips - Assorted",
+      "operationDebit":1853,
+      "operationProfit":0,
+      "beneficiaryAccount":"AE78 1617 9139 4959 4961 121",
+      "payerAccount":"BR43 4860 9778 9575 3511 3048 966G C"
    },
    {
       "id":62,
-      "operationDate":"2022-09-13",
-      "title":"Savory",
-      "operationDebit":0,
-      "operationProfit":609
+      "operationDate":"2022-07-10",
+      "title":"Thyme - Dried",
+      "operationDebit":6920,
+      "operationProfit":0,
+      "beneficiaryAccount":"GI17 PSJW MTMI RKRQ 3DYM 6CB",
+      "payerAccount":"BR27 3380 6249 6792 8184 4318 938V T"
    },
    {
       "id":63,
-      "operationDate":"2022-09-13",
-      "title":"Bread - 10 Grain",
-      "operationDebit":0,
-      "operationProfit":527
+      "operationDate":"2022-07-01",
+      "title":"Longos - Assorted Sandwich",
+      "operationDebit":9708,
+      "operationProfit":0,
+      "beneficiaryAccount":"LT55 0751 8272 9172 5732",
+      "payerAccount":"CZ72 7177 6328 6039 2732 8509"
    },
    {
       "id":64,
-      "operationDate":"2022-09-13",
-      "title":"Onions - Cooking",
-      "operationDebit":0,
-      "operationProfit":52
+      "operationDate":"2023-03-19",
+      "title":"Buffalo - Short Rib Fresh",
+      "operationDebit":442,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR20 4875 0634 5642 EOKM TTW9 J80",
+      "payerAccount":"AE59 5507 5487 9702 2651 839"
    },
    {
       "id":65,
-      "operationDate":"2022-09-13",
-      "title":"Flower - Potmums",
-      "operationDebit":0,
-      "operationProfit":63
+      "operationDate":"2022-09-02",
+      "title":"Tomatoes - Grape",
+      "operationDebit":6303,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR84 7262 4297 07PW VYD5 L5JC I71",
+      "payerAccount":"LU35 009D AQ5L POXM QD8M"
    },
    {
       "id":66,
-      "operationDate":"2022-09-13",
-      "title":"Pear - Prickly",
-      "operationDebit":0,
-      "operationProfit":316
+      "operationDate":"2022-07-22",
+      "title":"Stock - Beef, Brown",
+      "operationDebit":2306,
+      "operationProfit":0,
+      "beneficiaryAccount":"AD76 2090 4589 LCF1 8WZX NDM5",
+      "payerAccount":"LV63 UPBI UAY0 7TYJ UCEJ T"
    },
    {
       "id":67,
-      "operationDate":"2022-09-13",
-      "title":"Cinnamon - Ground",
-      "operationDebit":0,
-      "operationProfit":631
+      "operationDate":"2022-07-29",
+      "title":"Croissants Thaw And Serve",
+      "operationDebit":6649,
+      "operationProfit":0,
+      "beneficiaryAccount":"IE65 EIOT 4791 7499 2815 41",
+      "payerAccount":"NL14 LZGO 5538 0398 73"
    },
    {
       "id":68,
-      "operationDate":"2022-09-13",
-      "title":"Coffee Decaf Colombian",
-      "operationDebit":0,
-      "operationProfit":963
+      "operationDate":"2023-04-07",
+      "title":"Tortillas - Flour, 8",
+      "operationDebit":9667,
+      "operationProfit":0,
+      "beneficiaryAccount":"AT54 7324 3271 0571 2971",
+      "payerAccount":"HU36 0454 4025 6404 7966 5597 7149"
    },
    {
       "id":69,
-      "operationDate":"2022-09-13",
-      "title":"Lettuce - Treviso",
-      "operationDebit":0,
-      "operationProfit":281
+      "operationDate":"2022-10-12",
+      "title":"Whmis Spray Bottle Graduated",
+      "operationDebit":5028,
+      "operationProfit":0,
+      "beneficiaryAccount":"AD93 5816 5887 OGSH GHEM SV84",
+      "payerAccount":"MK85 415Z XRUM 8E4A G36"
    },
    {
       "id":70,
-      "operationDate":"2022-09-13",
-      "title":"Bread - Frozen Basket Variety",
-      "operationDebit":0,
-      "operationProfit":917
+      "operationDate":"2022-09-26",
+      "title":"Snapple - Mango Maddness",
+      "operationDebit":6419,
+      "operationProfit":0,
+      "beneficiaryAccount":"FI79 8657 3815 1033 46",
+      "payerAccount":"CZ68 9930 9302 2558 6898 9225"
    },
    {
       "id":71,
-      "operationDate":"2022-09-13",
-      "title":"Pears - Bartlett",
-      "operationDebit":0,
-      "operationProfit":439
+      "operationDate":"2022-12-31",
+      "title":"Bag Clear 10 Lb",
+      "operationDebit":3785,
+      "operationProfit":0,
+      "beneficiaryAccount":"SM08 B602 5526 405H 3F6F D1JS K5K",
+      "payerAccount":"PS77 ZHDA ES00 JZVH BNEW GNUO 9SXQ U"
    },
    {
       "id":72,
-      "operationDate":"2022-09-13",
-      "title":"Nori Sea Weed - Gold Label",
-      "operationDebit":0,
-      "operationProfit":485
+      "operationDate":"2023-05-29",
+      "title":"Pork - Smoked Kassler",
+      "operationDebit":3860,
+      "operationProfit":0,
+      "beneficiaryAccount":"PT89 7011 6561 5675 3596 2996 7",
+      "payerAccount":"LU15 867Q LVR2 SR1I V52M"
    },
    {
       "id":73,
-      "operationDate":"2022-09-13",
-      "title":"Table Cloth 62x114 White",
-      "operationDebit":0,
-      "operationProfit":1000
+      "operationDate":"2022-12-28",
+      "title":"Steampan Lid",
+      "operationDebit":5000,
+      "operationProfit":0,
+      "beneficiaryAccount":"PL83 7198 6982 8480 5268 4147 9468",
+      "payerAccount":"CZ18 3288 3262 6994 0318 7315"
    },
    {
       "id":74,
-      "operationDate":"2022-09-13",
-      "title":"Oxtail - Cut",
-      "operationDebit":0,
-      "operationProfit":93
+      "operationDate":"2022-12-11",
+      "title":"Oil - Margarine",
+      "operationDebit":8317,
+      "operationProfit":0,
+      "beneficiaryAccount":"BR84 0069 1705 6241 1129 9969 239W B",
+      "payerAccount":"IT51 X044 1843 2237 KWSQ 0KTB JAO"
    },
    {
       "id":75,
-      "operationDate":"2022-09-13",
-      "title":"Fond - Neutral",
-      "operationDebit":0,
-      "operationProfit":4
+      "operationDate":"2023-06-02",
+      "title":"Rum - Spiced, Captain Morgan",
+      "operationDebit":2950,
+      "operationProfit":0,
+      "beneficiaryAccount":"VG92 KMIG 6259 5568 5883 2258",
+      "payerAccount":"GI52 DIIW TLUS BHOY Y6ZL 9CJ"
    },
    {
       "id":76,
-      "operationDate":"2022-09-13",
-      "title":"Pasta - Rotini, Colour, Dry",
-      "operationDebit":0,
-      "operationProfit":524
+      "operationDate":"2022-12-23",
+      "title":"Sour Puss Sour Apple",
+      "operationDebit":6152,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR18 6585 6192 94QW VRXI UY4K Q74",
+      "payerAccount":"MR80 8303 7655 2519 7743 5229 812"
    },
    {
       "id":77,
-      "operationDate":"2022-09-13",
-      "title":"Godiva White Chocolate",
-      "operationDebit":0,
-      "operationProfit":603
+      "operationDate":"2022-09-18",
+      "title":"Molasses - Fancy",
+      "operationDebit":1335,
+      "operationProfit":0,
+      "beneficiaryAccount":"IS51 4561 0058 3509 8205 5687 20",
+      "payerAccount":"SI27 5066 7000 7630 866"
    },
    {
       "id":78,
-      "operationDate":"2022-09-13",
-      "title":"Lettuce - Sea / Sea Asparagus",
-      "operationDebit":0,
-      "operationProfit":615
+      "operationDate":"2023-05-06",
+      "title":"Pasta - Orzo, Dry",
+      "operationDebit":6594,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR83 2140 8385 17J7 ATLE MIYZ I79",
+      "payerAccount":"GI45 JBEO OHWM FCFR QFBF Y3S"
    },
    {
       "id":79,
-      "operationDate":"2022-09-13",
-      "title":"Nutmeg - Ground",
-      "operationDebit":0,
-      "operationProfit":131
+      "operationDate":"2022-10-28",
+      "title":"Nut - Walnut, Pieces",
+      "operationDebit":6605,
+      "operationProfit":0,
+      "beneficiaryAccount":"HR94 7480 4234 1600 9874 6",
+      "payerAccount":"AE17 6050 1523 7724 4435 183"
    },
    {
       "id":80,
-      "operationDate":"2022-09-13",
-      "title":"Seedlings - Clamshell",
-      "operationDebit":0,
-      "operationProfit":300
+      "operationDate":"2023-02-25",
+      "title":"Strawberries - California",
+      "operationDebit":8426,
+      "operationProfit":0,
+      "beneficiaryAccount":"CY43 8211 1365 FCZM JQXA PM1Z YLCM",
+      "payerAccount":"FR06 6778 3264 28PK QRS8 VPPS F38"
    },
    {
       "id":81,
-      "operationDate":"2022-09-13",
-      "title":"Longos - Grilled Veg Sandwiches",
-      "operationDebit":0,
-      "operationProfit":332
+      "operationDate":"2023-03-19",
+      "title":"Chocolate Bar - Reese Pieces",
+      "operationDebit":1577,
+      "operationProfit":0,
+      "beneficiaryAccount":"MC82 9235 3842 77BQ 2V6D NJEO W03",
+      "payerAccount":"LI79 5722 390I WJLL QC3Z J"
    },
    {
       "id":82,
-      "operationDate":"2022-09-13",
-      "title":"Plate Foam Laminated 9in Blk",
-      "operationDebit":0,
-      "operationProfit":81
+      "operationDate":"2023-06-06",
+      "title":"Creamers - 10%",
+      "operationDebit":2951,
+      "operationProfit":0,
+      "beneficiaryAccount":"GI26 APRB P90T WNTA DTBM E4J",
+      "payerAccount":"NL75 VECZ 9180 6745 94"
    },
    {
       "id":83,
-      "operationDate":"2022-09-13",
-      "title":"Syrup - Chocolate",
-      "operationDebit":0,
-      "operationProfit":430
+      "operationDate":"2022-09-04",
+      "title":"Rolled Oats",
+      "operationDebit":9650,
+      "operationProfit":0,
+      "beneficiaryAccount":"MU97 SOBB 8041 2108 4404 2026 288N PQ",
+      "payerAccount":"IL94 8792 5357 1484 7484 265"
    },
    {
       "id":84,
-      "operationDate":"2022-09-13",
-      "title":"Wine - White, Colubia Cresh",
-      "operationDebit":0,
-      "operationProfit":4
+      "operationDate":"2022-10-28",
+      "title":"Devonshire Cream",
+      "operationDebit":988,
+      "operationProfit":0,
+      "beneficiaryAccount":"AT91 5925 3055 0347 3497",
+      "payerAccount":"DK25 5886 0287 7363 73"
    },
    {
       "id":85,
-      "operationDate":"2022-09-13",
-      "title":"Mushroom - Enoki, Dry",
-      "operationDebit":0,
-      "operationProfit":872
+      "operationDate":"2023-03-07",
+      "title":"Bread - Triangle White",
+      "operationDebit":4272,
+      "operationProfit":0,
+      "beneficiaryAccount":"CY87 2121 2367 AGH7 DDBY CMSW 2LRC",
+      "payerAccount":"VG08 WSJP 5393 5870 3025 9115"
    },
    {
       "id":86,
-      "operationDate":"2022-09-13",
-      "title":"Buffalo - Striploin",
-      "operationDebit":0,
-      "operationProfit":14
+      "operationDate":"2022-07-20",
+      "title":"Filter - Coffee",
+      "operationDebit":5793,
+      "operationProfit":0,
+      "beneficiaryAccount":"HR06 3199 5339 4929 2185 0",
+      "payerAccount":"IE29 HOHA 3522 6834 1420 47"
    },
    {
       "id":87,
-      "operationDate":"2022-09-13",
-      "title":"Ham Black Forest",
-      "operationDebit":0,
-      "operationProfit":14
+      "operationDate":"2022-07-25",
+      "title":"Cheese - Brie",
+      "operationDebit":6152,
+      "operationProfit":0,
+      "beneficiaryAccount":"VG49 YCQT 7335 5401 0057 6974",
+      "payerAccount":"FR94 2878 8939 25F8 73ZJ PHJE X14"
    },
    {
       "id":88,
-      "operationDate":"2022-09-13",
-      "title":"Potatoes - Parissienne",
-      "operationDebit":0,
-      "operationProfit":824
+      "operationDate":"2022-08-08",
+      "title":"Syrup - Monin - Blue Curacao",
+      "operationDebit":7353,
+      "operationProfit":0,
+      "beneficiaryAccount":"DO21 TAJN 3272 9893 0845 4566 5614",
+      "payerAccount":"SK26 5300 1191 7085 4590 3754"
    },
    {
       "id":89,
-      "operationDate":"2022-09-13",
-      "title":"Dragon Fruit",
-      "operationDebit":0,
-      "operationProfit":139
+      "operationDate":"2023-01-31",
+      "title":"Cheese - La Sauvagine",
+      "operationDebit":3771,
+      "operationProfit":0,
+      "beneficiaryAccount":"SA33 60HD 0RHB WXQ0 4ZXD RG5Y",
+      "payerAccount":"GE53 ZQ74 3782 6175 7988 30"
    },
    {
       "id":90,
-      "operationDate":"2022-09-13",
-      "title":"Nut - Macadamia",
-      "operationDebit":0,
-      "operationProfit":86
+      "operationDate":"2022-12-17",
+      "title":"Energy Drink",
+      "operationDebit":4299,
+      "operationProfit":0,
+      "beneficiaryAccount":"MC72 9185 8228 804J GRJG 4CRE C46",
+      "payerAccount":"AD20 3493 8212 BLU4 CWRZ PAGV"
    },
    {
       "id":91,
-      "operationDate":"2022-09-13",
-      "title":"Gelatine Leaves - Envelopes",
-      "operationDebit":0,
-      "operationProfit":915
+      "operationDate":"2023-06-05",
+      "title":"Pork - Kidney",
+      "operationDebit":2203,
+      "operationProfit":0,
+      "beneficiaryAccount":"SE86 1073 7863 0298 1903 9247",
+      "payerAccount":"FR22 2662 2816 98SY 3HJW FIXP M01"
    },
    {
       "id":92,
-      "operationDate":"2022-09-13",
-      "title":"Potato - Sweet",
-      "operationDebit":0,
-      "operationProfit":193
+      "operationDate":"2023-01-28",
+      "title":"Chicken Thigh - Bone Out",
+      "operationDebit":8959,
+      "operationProfit":0,
+      "beneficiaryAccount":"MK36 7785 AGMB JY8E L45",
+      "payerAccount":"FR38 6729 7033 01TR EIFQ WWHR 055"
    },
    {
       "id":93,
-      "operationDate":"2022-09-13",
-      "title":"Coffee - Frthy Coffee Crisp",
-      "operationDebit":0,
-      "operationProfit":941
+      "operationDate":"2022-09-04",
+      "title":"Cheese - Brie,danish",
+      "operationDebit":8733,
+      "operationProfit":0,
+      "beneficiaryAccount":"MT20 BVYY 3297 2593 K295 5TY6 9R49 HOE",
+      "payerAccount":"SM06 H531 3859 510D GLFF EOKM MMY"
    },
    {
       "id":94,
-      "operationDate":"2022-09-13",
-      "title":"Wine - Clavet Saint Emilion",
-      "operationDebit":0,
-      "operationProfit":180
+      "operationDate":"2023-06-13",
+      "title":"Wine - Dubouef Macon - Villages",
+      "operationDebit":4201,
+      "operationProfit":0,
+      "beneficiaryAccount":"MD67 TAEV 8MII TTLB BTXN BTXA",
+      "payerAccount":"NO16 4094 8683 709"
    },
    {
       "id":95,
-      "operationDate":"2022-09-13",
-      "title":"Beer - Fruli",
-      "operationDebit":0,
-      "operationProfit":665
+      "operationDate":"2022-11-30",
+      "title":"Chicken - Soup Base",
+      "operationDebit":5918,
+      "operationProfit":0,
+      "beneficiaryAccount":"PT81 4410 6991 6796 7332 0771 7",
+      "payerAccount":"GR28 0615 994E U0UZ NVFM ZIMI FTI"
    },
    {
       "id":96,
-      "operationDate":"2022-09-13",
-      "title":"Crush - Grape, 355 Ml",
-      "operationDebit":0,
-      "operationProfit":446
+      "operationDate":"2022-09-20",
+      "title":"Beer - Paulaner Hefeweisse",
+      "operationDebit":5260,
+      "operationProfit":0,
+      "beneficiaryAccount":"SA83 313R K7Q6 U059 N4RU AER0",
+      "payerAccount":"BH35 GAFQ MK6R 6ZF7 FJKL NB"
    },
    {
       "id":97,
-      "operationDate":"2022-09-13",
-      "title":"Towel Multifold",
-      "operationDebit":0,
-      "operationProfit":589
+      "operationDate":"2023-05-18",
+      "title":"Flour - Cake",
+      "operationDebit":5215,
+      "operationProfit":0,
+      "beneficiaryAccount":"GI33 BUAH WMDZ ICB8 0CFP XGH",
+      "payerAccount":"TN15 4667 0633 7672 5920 9608"
    },
    {
       "id":98,
-      "operationDate":"2022-09-13",
-      "title":"Flower - Carnations",
-      "operationDebit":0,
-      "operationProfit":813
+      "operationDate":"2022-10-24",
+      "title":"Juice - Apple, 1.36l",
+      "operationDebit":3044,
+      "operationProfit":0,
+      "beneficiaryAccount":"FR50 8195 4083 05AY J7YU VJCT H46",
+      "payerAccount":"FR10 3770 8100 252S UPF9 JIKF U58"
    },
    {
       "id":99,
-      "operationDate":"2022-09-13",
-      "title":"Shrimp - 31/40",
-      "operationDebit":0,
-      "operationProfit":293
+      "operationDate":"2023-06-09",
+      "title":"Cinnamon - Stick",
+      "operationDebit":4893,
+      "operationProfit":0,
+      "beneficiaryAccount":"LV97 UWJF 4SUG E8OS ALJV Z",
+      "payerAccount":"KW34 DNGX QKCL TAFL VNVI AYWS TUXO 88"
    },
    {
       "id":100,
-      "operationDate":"2022-09-13",
-      "title":"Creme De Cacao Mcguines",
-      "operationDebit":0,
-      "operationProfit":270
-   }
+      "operationDate":"2022-10-20",
+      "title":"Garlic",
+      "operationDebit":3390,
+      "operationProfit":0,
+      "beneficiaryAccount":"DK52 0909 9737 2127 41",
+      "payerAccount":"BE26 7077 9550 0432"
+   },
+   {
+   "operationDate":"2022-10-30",
+   "title":"Glucose",
+   "operationDebit":0,
+   "operationProfit":112,
+   "beneficiaryAccount":"PL77 0742 7544 7700 5360 1525 7145",
+   "payerAccount":"FR12 5553 7288 80A0 2FEI 4JUB J17"
+},
+{
+   "id":102,
+   "operationDate":"2022-10-20",
+   "title":"Pasta - Canelloni",
+   "operationDebit":0,
+   "operationProfit":228,
+   "beneficiaryAccount":"GL33 8351 3005 9684 15",
+   "payerAccount":"BA91 2165 9386 9113 2527"
+},
+{
+   "id":103,
+   "operationDate":"2023-03-08",
+   "title":"Veal - Knuckle",
+   "operationDebit":0,
+   "operationProfit":1489,
+   "beneficiaryAccount":"KZ91 980Q ZJ8R MY6S JGN2",
+   "payerAccount":"KZ64 829E PXVU RLQZ 7I7R"
+},
+{
+   "id":104,
+   "operationDate":"2023-04-22",
+   "title":"Bread - Sticks, Thin, Plain",
+   "operationDebit":0,
+   "operationProfit":8630,
+   "beneficiaryAccount":"SK32 2708 5076 9865 5434 4850",
+   "payerAccount":"SI13 2425 5434 8506 941"
+},
+{
+   "id":105,
+   "operationDate":"2022-10-18",
+   "title":"Cup - 4oz Translucent",
+   "operationDebit":0,
+   "operationProfit":8669,
+   "beneficiaryAccount":"MC94 5246 7341 33WA TIZO EW14 R57",
+   "payerAccount":"AD53 4802 1590 IIRR XGIK 6ILP"
+},
+{
+   "id":106,
+   "operationDate":"2022-10-12",
+   "title":"Wine - Barbera Alba Doc 2001",
+   "operationDebit":0,
+   "operationProfit":57,
+   "beneficiaryAccount":"FR34 5302 3345 18KF RFVB V4D7 O17",
+   "payerAccount":"CH75 4472 11D9 CGBW ECND 7"
+},
+{
+   "id":107,
+   "operationDate":"2022-08-28",
+   "title":"Cheese - Shred Cheddar / Mozza",
+   "operationDebit":0,
+   "operationProfit":2513,
+   "beneficiaryAccount":"PS69 GGWC BAYX CYGN 6GGU N7DB HAE8 7",
+   "payerAccount":"AT51 2722 6627 8481 9797"
+},
+{
+   "id":108,
+   "operationDate":"2023-03-25",
+   "title":"V8 - Berry Blend",
+   "operationDebit":0,
+   "operationProfit":5027,
+   "beneficiaryAccount":"CY96 3038 3550 IH7Z GIBZ ODVP KYPC",
+   "payerAccount":"SE27 1359 0614 0398 5623 1010"
+},
+{
+   "id":109,
+   "operationDate":"2023-03-02",
+   "title":"Dried Cherries",
+   "operationDebit":0,
+   "operationProfit":4994,
+   "beneficiaryAccount":"HR82 7989 6142 8643 1125 1",
+   "payerAccount":"FI43 2336 9733 0937 90"
+},
+{
+   "id":110,
+   "operationDate":"2022-09-28",
+   "title":"Soup - Knorr, Classic Can. Chili",
+   "operationDebit":0,
+   "operationProfit":9497,
+   "beneficiaryAccount":"AZ70 TFJN M764 EAUY UR2D COTR 11LL",
+   "payerAccount":"LT05 2723 5953 4756 5829"
+},
+{
+   "id":111,
+   "operationDate":"2022-08-15",
+   "title":"Wine - Shiraz Wolf Blass Premium",
+   "operationDebit":0,
+   "operationProfit":303,
+   "beneficiaryAccount":"PS91 RALR KLSN 0U7W JACW MLAC 0WQG 8",
+   "payerAccount":"FR50 2435 1818 12DU BKVB OXNE C59"
+},
+{
+   "id":112,
+   "operationDate":"2023-03-19",
+   "title":"Arrowroot",
+   "operationDebit":0,
+   "operationProfit":8856,
+   "beneficiaryAccount":"FR69 9957 9859 078T E1AX L43H V24",
+   "payerAccount":"AD90 4041 8322 UMA6 K4FR PWWB"
+},
+{
+   "id":113,
+   "operationDate":"2022-10-23",
+   "title":"Soup - Campbells - Chicken Noodle",
+   "operationDebit":0,
+   "operationProfit":9939,
+   "beneficiaryAccount":"MU62 ZSYN 6727 6531 2373 1038 556V DX",
+   "payerAccount":"FI18 4927 0345 2864 26"
+},
+{
+   "id":114,
+   "operationDate":"2022-07-06",
+   "title":"Kiwi",
+   "operationDebit":0,
+   "operationProfit":3237,
+   "beneficiaryAccount":"GL74 5211 3047 5313 22",
+   "payerAccount":"GL38 0119 0348 5734 39"
+},
+{
+   "id":115,
+   "operationDate":"2022-07-03",
+   "title":"Soup - Knorr, Ministrone",
+   "operationDebit":0,
+   "operationProfit":6435,
+   "beneficiaryAccount":"GB97 YLMF 8940 7907 8057 04",
+   "payerAccount":"AE55 0809 1449 0084 3235 015"
+},
+{
+   "id":116,
+   "operationDate":"2022-09-07",
+   "title":"Muffin Hinge 117n",
+   "operationDebit":0,
+   "operationProfit":1252,
+   "beneficiaryAccount":"AL29 8716 9399 6YVH SLDE LBYF MNYK",
+   "payerAccount":"BA81 0098 3030 7253 6357"
+},
+{
+   "id":117,
+   "operationDate":"2022-11-26",
+   "title":"Pastry - Banana Tea Loaf",
+   "operationDebit":0,
+   "operationProfit":8353,
+   "beneficiaryAccount":"CH54 1940 3KCE YDOH UZJP I",
+   "payerAccount":"HR06 0990 7938 6435 4826 2"
+},
+{
+   "id":118,
+   "operationDate":"2023-03-26",
+   "title":"Rice Wine - Aji Mirin",
+   "operationDebit":0,
+   "operationProfit":4668,
+   "beneficiaryAccount":"IE93 AMJO 0946 8431 7641 13",
+   "payerAccount":"AZ05 RDXA QDLO CQJT E26O FQB7 AWUN"
+},
+{
+   "id":119,
+   "operationDate":"2022-11-13",
+   "title":"Smoked Paprika",
+   "operationDebit":0,
+   "operationProfit":5919,
+   "beneficiaryAccount":"BG20 DVNO 1132 05QS VJMD F8",
+   "payerAccount":"CH71 7821 789Z BVPQ 4NRZ G"
+},
+{
+   "id":120,
+   "operationDate":"2022-11-21",
+   "title":"Lettuce - Romaine, Heart",
+   "operationDebit":0,
+   "operationProfit":1204,
+   "beneficiaryAccount":"CZ52 1704 2478 6088 8756 5076",
+   "payerAccount":"LU12 973Q N51P PAL8 N9FA"
+},
+{
+   "id":121,
+   "operationDate":"2022-10-19",
+   "title":"Silicone Paper 16.5x24",
+   "operationDebit":0,
+   "operationProfit":3827,
+   "beneficiaryAccount":"FR43 0894 6948 36SY 4ZDN 8ZF2 945",
+   "payerAccount":"NL51 EMEJ 2423 2482 61"
+},
+{
+   "id":122,
+   "operationDate":"2022-09-24",
+   "title":"Lumpfish Black",
+   "operationDebit":0,
+   "operationProfit":4853,
+   "beneficiaryAccount":"NO82 4555 1456 972",
+   "payerAccount":"TN04 7074 0402 4411 9589 2362"
+},
+{
+   "id":123,
+   "operationDate":"2023-04-12",
+   "title":"Carbonated Water - Peach",
+   "operationDebit":0,
+   "operationProfit":4316,
+   "beneficiaryAccount":"AD34 8552 0274 DYHI KHVB 7RJV",
+   "payerAccount":"FR83 7692 8931 548P OLFD DG6P J17"
+},
+{
+   "id":124,
+   "operationDate":"2022-09-17",
+   "title":"Beans - Fava Fresh",
+   "operationDebit":0,
+   "operationProfit":515,
+   "beneficiaryAccount":"MT59 BKEQ 2340 9AGH R4SI MUKY JLL1 IEN",
+   "payerAccount":"DK65 6765 4082 1051 17"
+},
+{
+   "id":125,
+   "operationDate":"2022-07-24",
+   "title":"Cherries - Frozen",
+   "operationDebit":0,
+   "operationProfit":7208,
+   "beneficiaryAccount":"IL90 0924 4368 8823 7072 275",
+   "payerAccount":"KW91 OFQK DLLU WGS6 HMER FWPQ GBMN 3H"
+},
+{
+   "id":126,
+   "operationDate":"2022-06-15",
+   "title":"Muffin Puck Ww Carrot",
+   "operationDebit":0,
+   "operationProfit":9750,
+   "beneficiaryAccount":"GE02 OM52 6809 1348 0168 77",
+   "payerAccount":"FR11 1186 0238 47O1 XL0X LMXK B54"
+},
+{
+   "id":127,
+   "operationDate":"2022-09-24",
+   "title":"Longos - Chicken Wings",
+   "operationDebit":0,
+   "operationProfit":9634,
+   "beneficiaryAccount":"SA75 585Z X6NX QKL2 LNQW MWJD",
+   "payerAccount":"FR22 8154 9928 63JM MUQJ 7NON 383"
+},
+{
+   "id":128,
+   "operationDate":"2022-11-13",
+   "title":"Soupcontfoam16oz 116con",
+   "operationDebit":0,
+   "operationProfit":7306,
+   "beneficiaryAccount":"FR23 6566 0281 40XR 7SO6 XCM8 O75",
+   "payerAccount":"FI94 1335 2252 6356 84"
+},
+{
+   "id":129,
+   "operationDate":"2023-04-17",
+   "title":"Dry Ice",
+   "operationDebit":0,
+   "operationProfit":7631,
+   "beneficiaryAccount":"GL41 1801 6557 4365 23",
+   "payerAccount":"LU41 795H HMM4 VNFK CITD"
+},
+{
+   "id":130,
+   "operationDate":"2023-05-10",
+   "title":"Cleaner - Pine Sol",
+   "operationDebit":0,
+   "operationProfit":4550,
+   "beneficiaryAccount":"MD92 NILA V598 XXON 2PEV GGT5",
+   "payerAccount":"PK54 YGUJ S79E HL7L GGE1 OJW4"
+},
+{
+   "id":131,
+   "operationDate":"2022-07-19",
+   "title":"Bread Country Roll",
+   "operationDebit":0,
+   "operationProfit":7945,
+   "beneficiaryAccount":"VG39 YUPX 7996 1762 9686 3025",
+   "payerAccount":"CZ24 5062 5823 1826 5179 1729"
+},
+{
+   "id":132,
+   "operationDate":"2023-03-04",
+   "title":"Lotus Leaves",
+   "operationDebit":0,
+   "operationProfit":1441,
+   "beneficiaryAccount":"NO95 0428 3765 098",
+   "payerAccount":"CR94 3501 0768 3753 5431 2"
+},
+{
+   "id":133,
+   "operationDate":"2022-10-29",
+   "title":"Goulash Seasoning",
+   "operationDebit":0,
+   "operationProfit":8922,
+   "beneficiaryAccount":"TN89 9289 1009 0149 6717 6245",
+   "payerAccount":"HR81 5755 6587 2420 0413 0"
+},
+{
+   "id":134,
+   "operationDate":"2022-12-08",
+   "title":"Tea - Orange Pekoe",
+   "operationDebit":0,
+   "operationProfit":8628,
+   "beneficiaryAccount":"IS70 2055 7559 6183 9184 4586 27",
+   "payerAccount":"PS17 XNVD QXGN QJQF DHDL BL5W JAFY Z"
+},
+{
+   "id":135,
+   "operationDate":"2023-02-19",
+   "title":"Horseradish - Prepared",
+   "operationDebit":0,
+   "operationProfit":1507,
+   "beneficiaryAccount":"LT11 5741 5418 9780 0671",
+   "payerAccount":"PL21 6938 5734 9333 0984 5095 1667"
+},
+{
+   "id":136,
+   "operationDate":"2023-02-01",
+   "title":"Beer - Sleemans Honey Brown",
+   "operationDebit":0,
+   "operationProfit":8857,
+   "beneficiaryAccount":"AL29 8884 5306 FWYV 0S8B JUNY WPPQ",
+   "payerAccount":"BR24 0306 9809 0862 0977 4197 062X G"
+},
+{
+   "id":137,
+   "operationDate":"2023-04-29",
+   "title":"Wine - Malbec Trapiche Reserve",
+   "operationDebit":0,
+   "operationProfit":8887,
+   "beneficiaryAccount":"DO98 ZA8Z 1349 1069 0676 4926 2067",
+   "payerAccount":"DK51 9466 3011 5749 16"
+},
+{
+   "id":138,
+   "operationDate":"2023-03-26",
+   "title":"Milk - 1%",
+   "operationDebit":0,
+   "operationProfit":1732,
+   "beneficiaryAccount":"NO20 2583 2890 785",
+   "payerAccount":"NO93 6722 8422 067"
+},
+{
+   "id":139,
+   "operationDate":"2022-09-30",
+   "title":"Tea - Honey Green Tea",
+   "operationDebit":0,
+   "operationProfit":3561,
+   "beneficiaryAccount":"MU73 GOQA 7053 2859 7036 3379 331R UH",
+   "payerAccount":"AL91 8977 7588 MK1W O72S LFBM EAKB"
+},
+{
+   "id":140,
+   "operationDate":"2022-06-25",
+   "title":"Hinge W Undercut",
+   "operationDebit":0,
+   "operationProfit":11,
+   "beneficiaryAccount":"PK06 HPCB TKQE Q4CV 6NRD Y0HQ",
+   "payerAccount":"SI76 1808 8455 4675 552"
+},
+{
+   "id":141,
+   "operationDate":"2022-12-17",
+   "title":"Duck - Fat",
+   "operationDebit":0,
+   "operationProfit":945,
+   "beneficiaryAccount":"TN52 5684 8834 1193 4009 1691",
+   "payerAccount":"DK82 9081 1590 5109 22"
+},
+{
+   "id":142,
+   "operationDate":"2022-08-19",
+   "title":"True - Vue Containers",
+   "operationDebit":0,
+   "operationProfit":2868,
+   "beneficiaryAccount":"SI39 8336 1020 0773 119",
+   "payerAccount":"FR15 9396 8079 34IN FFNC MQ4N F52"
+},
+{
+   "id":143,
+   "operationDate":"2022-06-19",
+   "title":"Beer - Pilsner Urquell",
+   "operationDebit":0,
+   "operationProfit":9768,
+   "beneficiaryAccount":"ME31 0047 2405 1853 1700 93",
+   "payerAccount":"AE42 5390 4121 4865 2040 221"
+},
+{
+   "id":144,
+   "operationDate":"2023-02-08",
+   "title":"Pie Filling - Cherry",
+   "operationDebit":0,
+   "operationProfit":6863,
+   "beneficiaryAccount":"MC29 5849 9793 43FQ QNVT LJXF J47",
+   "payerAccount":"SM07 W366 7322 089W ACQL QJQQ ZYE"
+},
+{
+   "id":145,
+   "operationDate":"2023-01-30",
+   "title":"Chips Potato All Dressed - 43g",
+   "operationDebit":0,
+   "operationProfit":525,
+   "beneficiaryAccount":"FR91 8877 5929 49DQ OSQP ZUXI V20",
+   "payerAccount":"ES56 4541 3227 6519 8893 4278"
+},
+{
+   "id":146,
+   "operationDate":"2022-12-18",
+   "title":"Tomatoes - Roma",
+   "operationDebit":0,
+   "operationProfit":9894,
+   "beneficiaryAccount":"LI54 3940 6X1K 62CV XAVM Y",
+   "payerAccount":"BH83 NODM 1QOH HYH7 AVCL O5"
+},
+{
+   "id":147,
+   "operationDate":"2023-05-10",
+   "title":"Mix Pina Colada",
+   "operationDebit":0,
+   "operationProfit":2868,
+   "beneficiaryAccount":"BH93 YWDX GLHF QB4N J4XV LH",
+   "payerAccount":"EE10 9009 9303 2441 1200"
+},
+{
+   "id":148,
+   "operationDate":"2022-10-18",
+   "title":"Beer - Upper Canada Light",
+   "operationDebit":0,
+   "operationProfit":9516,
+   "beneficiaryAccount":"FR16 9006 5180 95NS YYOQ GBMK B32",
+   "payerAccount":"NL98 HWAN 5286 2675 66"
+},
+{
+   "id":149,
+   "operationDate":"2023-03-04",
+   "title":"Trueblue - Blueberry Cranberry",
+   "operationDebit":0,
+   "operationProfit":4418,
+   "beneficiaryAccount":"MU25 YXGG 6524 4867 4825 6591 648X YP",
+   "payerAccount":"MD98 L86I VE45 KJTN FEZB SPZV"
+},
+{
+   "id":150,
+   "operationDate":"2022-06-24",
+   "title":"Oil - Hazelnut",
+   "operationDebit":0,
+   "operationProfit":5930,
+   "beneficiaryAccount":"MC14 9521 1017 07JB J6PH RZH0 Z81",
+   "payerAccount":"MK46 903F 7UO5 UPSU N16"
+},
+{
+   "id":151,
+   "operationDate":"2023-04-15",
+   "title":"Wine - White, Antinore Orvieto",
+   "operationDebit":0,
+   "operationProfit":3141,
+   "beneficiaryAccount":"BH92 MKMD RFX5 RYP5 HX7P OQ",
+   "payerAccount":"MK79 3067 ZAWA NREI 150"
+},
+{
+   "id":152,
+   "operationDate":"2023-03-25",
+   "title":"Mayonnaise",
+   "operationDebit":0,
+   "operationProfit":9725,
+   "beneficiaryAccount":"GL82 0250 3378 1609 23",
+   "payerAccount":"GB70 XQJK 4722 5889 4592 99"
+},
+{
+   "id":153,
+   "operationDate":"2022-12-13",
+   "title":"Tea Peppermint",
+   "operationDebit":0,
+   "operationProfit":440,
+   "beneficiaryAccount":"IT70 N117 4314 860J TEZK QC30 NDC",
+   "payerAccount":"FR15 2152 6003 299M XN2O 3J8U B07"
+},
+{
+   "id":154,
+   "operationDate":"2023-04-17",
+   "title":"Flour - Bran, Red",
+   "operationDebit":0,
+   "operationProfit":4277,
+   "beneficiaryAccount":"AZ73 TZBF APIY JLLC TXPI UCJ1 RXML",
+   "payerAccount":"FR51 6490 7520 14K6 JHBW 1MAJ X97"
+},
+{
+   "id":155,
+   "operationDate":"2022-10-16",
+   "title":"Sauce - Bernaise, Mix",
+   "operationDebit":0,
+   "operationProfit":3784,
+   "beneficiaryAccount":"FI73 3061 5462 9856 11",
+   "payerAccount":"RS05 8724 2616 4309 2191 19"
+},
+{
+   "id":156,
+   "operationDate":"2023-01-21",
+   "title":"Papadam",
+   "operationDebit":0,
+   "operationProfit":793,
+   "beneficiaryAccount":"FR92 1011 7509 60Y0 DS72 HKXI 813",
+   "payerAccount":"CZ80 6279 4457 6356 9283 7577"
+},
+{
+   "id":157,
+   "operationDate":"2022-11-14",
+   "title":"Pea - Snow",
+   "operationDebit":0,
+   "operationProfit":427,
+   "beneficiaryAccount":"FR45 8125 9341 82BS MBV6 PSSL V67",
+   "payerAccount":"RS64 9046 2775 7869 2316 19"
+},
+{
+   "id":158,
+   "operationDate":"2023-02-09",
+   "title":"Lettuce - Arugula",
+   "operationDebit":0,
+   "operationProfit":1527,
+   "beneficiaryAccount":"KW25 RBMU ZHQW DIP4 YWDH RLNT CF4Q RL",
+   "payerAccount":"BA34 4304 4510 6975 4572"
+},
+{
+   "id":159,
+   "operationDate":"2022-08-12",
+   "title":"Sauce - Vodka Blush",
+   "operationDebit":0,
+   "operationProfit":6663,
+   "beneficiaryAccount":"RS19 3451 1367 4125 3867 04",
+   "payerAccount":"SM80 O670 7260 3041 LDUH KUKF QU4"
+},
+{
+   "id":160,
+   "operationDate":"2023-02-14",
+   "title":"Veal - Nuckle",
+   "operationDebit":0,
+   "operationProfit":103,
+   "beneficiaryAccount":"SE79 6318 7126 3767 2783 2872",
+   "payerAccount":"FR86 7493 3026 39ED R4SW TP4P Z55"
+},
+{
+   "id":161,
+   "operationDate":"2022-09-11",
+   "title":"Truffle Paste",
+   "operationDebit":0,
+   "operationProfit":4692,
+   "beneficiaryAccount":"IE87 LXNO 3213 4890 4906 35",
+   "payerAccount":"FR53 6785 8969 36JF XDGR ZGRR Y86"
+},
+{
+   "id":162,
+   "operationDate":"2023-01-09",
+   "title":"Chilli Paste, Sambal Oelek",
+   "operationDebit":0,
+   "operationProfit":3920,
+   "beneficiaryAccount":"MR87 8453 2277 1031 8531 0028 348",
+   "payerAccount":"PT34 5673 6235 5214 0768 6627 3"
+},
+{
+   "id":163,
+   "operationDate":"2023-02-13",
+   "title":"Hickory Smoke, Liquid",
+   "operationDebit":0,
+   "operationProfit":4708,
+   "beneficiaryAccount":"AE81 9838 2962 1210 5448 482",
+   "payerAccount":"MT73 KYBP 3463 7GQZ BK7S 7OH8 OPMQ YDL"
+},
+{
+   "id":164,
+   "operationDate":"2023-03-02",
+   "title":"Mousse - Passion Fruit",
+   "operationDebit":0,
+   "operationProfit":8466,
+   "beneficiaryAccount":"BH72 DSDC G0A9 PRVB FKAU PF",
+   "payerAccount":"MK16 949U QQP3 FGDE Y54"
+},
+{
+   "id":165,
+   "operationDate":"2022-12-15",
+   "title":"Pate - Liver",
+   "operationDebit":0,
+   "operationProfit":1217,
+   "beneficiaryAccount":"MT46 ZFSY 0801 7MKK E8CH PCNY BTM3 YYG",
+   "payerAccount":"IS70 7026 7684 4313 0322 1319 37"
+},
+{
+   "id":166,
+   "operationDate":"2023-04-23",
+   "title":"Cream Of Tartar",
+   "operationDebit":0,
+   "operationProfit":6053,
+   "beneficiaryAccount":"LU13 030E PVIO 0XMY JWAB",
+   "payerAccount":"TR56 5626 2NVL VLXW MIXC JF2E Q3"
+},
+{
+   "id":167,
+   "operationDate":"2022-07-16",
+   "title":"Beef - Texas Style Burger",
+   "operationDebit":0,
+   "operationProfit":5392,
+   "beneficiaryAccount":"FR51 6320 5651 951E GMLI M6JZ J94",
+   "payerAccount":"FR90 0237 3160 76BM KI46 D3J1 G01"
+},
+{
+   "id":168,
+   "operationDate":"2023-05-24",
+   "title":"Sauce - Caesar Dressing",
+   "operationDebit":0,
+   "operationProfit":5072,
+   "beneficiaryAccount":"KZ08 007C F0OS GZ9N QZVF",
+   "payerAccount":"IS71 5974 3653 5858 4488 0755 30"
+},
+{
+   "id":169,
+   "operationDate":"2022-11-28",
+   "title":"Wine - White, Schroder And Schyl",
+   "operationDebit":0,
+   "operationProfit":8475,
+   "beneficiaryAccount":"LB97 5138 RJR6 GUSB EHDJ VIE4 BPLX",
+   "payerAccount":"FR49 5075 9743 51XF SQGZ TY3I B91"
+},
+{
+   "id":170,
+   "operationDate":"2023-01-24",
+   "title":"Placemat - Scallop, White",
+   "operationDebit":0,
+   "operationProfit":2865,
+   "beneficiaryAccount":"IT43 E930 8896 963G 1F3C KS3G K2L",
+   "payerAccount":"LU53 534B CAEQ TS6F VR8I"
+},
+{
+   "id":171,
+   "operationDate":"2022-11-29",
+   "title":"Lettuce - Iceberg",
+   "operationDebit":0,
+   "operationProfit":2719,
+   "beneficiaryAccount":"FR95 0706 7099 19PK NKPO NWOV N34",
+   "payerAccount":"FR15 4009 2353 17SC SNU4 DAHS K36"
+},
+{
+   "id":172,
+   "operationDate":"2023-04-17",
+   "title":"Squash - Pattypan, Yellow",
+   "operationDebit":0,
+   "operationProfit":6642,
+   "beneficiaryAccount":"AE92 1873 7097 1210 4592 934",
+   "payerAccount":"GE75 WT13 6105 6797 6746 19"
+},
+{
+   "id":173,
+   "operationDate":"2022-09-03",
+   "title":"Cornish Hen",
+   "operationDebit":0,
+   "operationProfit":619,
+   "beneficiaryAccount":"RO76 SDPZ YMKB PCF6 TDH1 XEB0",
+   "payerAccount":"PK65 GNTK NX0V 0CKJ TITG C4KM"
+},
+{
+   "id":174,
+   "operationDate":"2022-10-03",
+   "title":"Cake - Night And Day Choclate",
+   "operationDebit":0,
+   "operationProfit":401,
+   "beneficiaryAccount":"LV88 HXFE DJWS W6UF YECZ P",
+   "payerAccount":"IE73 WJUB 9502 9626 4283 23"
+},
+{
+   "id":175,
+   "operationDate":"2022-07-28",
+   "title":"Salmon - Atlantic, Skin On",
+   "operationDebit":0,
+   "operationProfit":2172,
+   "beneficiaryAccount":"GL74 6095 7274 2418 60",
+   "payerAccount":"DE47 9459 1951 7980 5359 10"
+},
+{
+   "id":176,
+   "operationDate":"2022-12-27",
+   "title":"Instant Coffee",
+   "operationDebit":0,
+   "operationProfit":1919,
+   "beneficiaryAccount":"CR81 9385 3459 0177 5307 2",
+   "payerAccount":"LU49 1087 Q9WF 9T5T OEET"
+},
+{
+   "id":177,
+   "operationDate":"2022-09-18",
+   "title":"Cranberry Foccacia",
+   "operationDebit":0,
+   "operationProfit":5536,
+   "beneficiaryAccount":"RO16 WLQN EFEQ ZCCG 9NZ5 FI4R",
+   "payerAccount":"GI82 OUSS B6R3 QOGL HV9V CEI"
+},
+{
+   "id":178,
+   "operationDate":"2022-11-06",
+   "title":"Carrots - Purple, Organic",
+   "operationDebit":0,
+   "operationProfit":3791,
+   "beneficiaryAccount":"FR09 5115 4749 77D9 NXYF DKKY 446",
+   "payerAccount":"PK29 EIKJ EVMW DAZ3 FD21 IE8R"
+},
+{
+   "id":179,
+   "operationDate":"2022-07-26",
+   "title":"Sambuca - Opal Nera",
+   "operationDebit":0,
+   "operationProfit":5498,
+   "beneficiaryAccount":"FR13 8275 5959 10IT R30A DQZI 596",
+   "payerAccount":"PT51 9749 0003 4842 4883 0013 1"
+},
+{
+   "id":180,
+   "operationDate":"2022-07-10",
+   "title":"Veal - Round, Eye Of",
+   "operationDebit":0,
+   "operationProfit":4321,
+   "beneficiaryAccount":"PL56 8989 1341 2055 9343 0704 3474",
+   "payerAccount":"EE70 6438 3607 9207 0502"
+},
+{
+   "id":181,
+   "operationDate":"2023-04-23",
+   "title":"Cocoa Feuilletine",
+   "operationDebit":0,
+   "operationProfit":8155,
+   "beneficiaryAccount":"GI41 BATU GDTS XYK3 Y4XE G15",
+   "payerAccount":"FR90 8988 8782 86V5 CLK0 OSKY J11"
+},
+{
+   "id":182,
+   "operationDate":"2022-11-15",
+   "title":"Cheese - Brie Roitelet",
+   "operationDebit":0,
+   "operationProfit":3357,
+   "beneficiaryAccount":"FR80 9896 2460 13FE EMRF IC9I J49",
+   "payerAccount":"SA24 00MC 7DRP WV5C QFVD UNGO"
+},
+{
+   "id":183,
+   "operationDate":"2022-08-28",
+   "title":"Potatoes - Yukon Gold 5 Oz",
+   "operationDebit":0,
+   "operationProfit":3582,
+   "beneficiaryAccount":"LB55 0029 FBEC EFXH ZUAO UKHH AP4E",
+   "payerAccount":"FR74 1149 1887 63O4 Q1JN 19UA U71"
+},
+{
+   "id":184,
+   "operationDate":"2023-03-17",
+   "title":"Mix - Cocktail Strawberry Daiquiri",
+   "operationDebit":0,
+   "operationProfit":6698,
+   "beneficiaryAccount":"IT96 F514 4664 955L ABZP 4TIT W28",
+   "payerAccount":"FR92 7645 6419 604X C26U AJNF X81"
+},
+{
+   "id":185,
+   "operationDate":"2023-03-18",
+   "title":"Wine - Vovray Sec Domaine Huet",
+   "operationDebit":0,
+   "operationProfit":4545,
+   "beneficiaryAccount":"SA77 58WV BRD1 GX9V TTDO LOT5",
+   "payerAccount":"BH15 CATF 1XLG L3KO BXYI U5"
+},
+{
+   "id":186,
+   "operationDate":"2023-03-22",
+   "title":"Foam Dinner Plate",
+   "operationDebit":0,
+   "operationProfit":2808,
+   "beneficiaryAccount":"FR66 4256 9386 61U4 MMEV 5E0Z D15",
+   "payerAccount":"AD43 2305 3887 BBO2 HZSG PP8L"
+},
+{
+   "id":187,
+   "operationDate":"2023-03-17",
+   "title":"Pasta - Lasagne, Fresh",
+   "operationDebit":0,
+   "operationProfit":6619,
+   "beneficiaryAccount":"SM97 P412 6033 471Y IHP2 HZ0S XPX",
+   "payerAccount":"FO53 4973 3385 6243 49"
+},
+{
+   "id":188,
+   "operationDate":"2022-09-06",
+   "title":"Guava",
+   "operationDebit":0,
+   "operationProfit":8885,
+   "beneficiaryAccount":"FR23 4277 6161 16ZM 5G6A ZJMU C25",
+   "payerAccount":"AZ11 EXPB JYVK YMIH OGXS KPYG 0S8J"
+},
+{
+   "id":189,
+   "operationDate":"2022-11-30",
+   "title":"Pasta - Lasagna Noodle, Frozen",
+   "operationDebit":0,
+   "operationProfit":9562,
+   "beneficiaryAccount":"GB08 KJXY 0676 8378 8415 91",
+   "payerAccount":"FR18 3919 9391 91YZ NMC1 08QT 699"
+},
+{
+   "id":190,
+   "operationDate":"2022-12-21",
+   "title":"Beans - Yellow",
+   "operationDebit":0,
+   "operationProfit":3562,
+   "beneficiaryAccount":"MD34 ZAKT GOQW UIRO WJ32 3WXB",
+   "payerAccount":"BG95 TYXU 4585 61CK G2TH AR"
+},
+{
+   "id":191,
+   "operationDate":"2023-04-18",
+   "title":"Vegetable - Base",
+   "operationDebit":0,
+   "operationProfit":208,
+   "beneficiaryAccount":"PK85 BBUY 3HQV HVFB NTJ0 5VUF",
+   "payerAccount":"LT55 6176 7707 0297 7174"
+},
+{
+   "id":192,
+   "operationDate":"2022-11-27",
+   "title":"Pie Filling - Pumpkin",
+   "operationDebit":0,
+   "operationProfit":8195,
+   "beneficiaryAccount":"BE26 1691 1692 6706",
+   "payerAccount":"BA19 2130 4906 4629 9945"
+},
+{
+   "id":193,
+   "operationDate":"2023-01-19",
+   "title":"Onions Granulated",
+   "operationDebit":0,
+   "operationProfit":129,
+   "beneficiaryAccount":"BH92 FDUK VY9K PDQK 4DHT QY",
+   "payerAccount":"BR61 6949 6974 5355 4367 4132 957H R"
+},
+{
+   "id":194,
+   "operationDate":"2022-10-18",
+   "title":"Jam - Strawberry, 20 Ml Jar",
+   "operationDebit":0,
+   "operationProfit":7951,
+   "beneficiaryAccount":"LB17 4493 UZTV 4EVE NEDX T6B2 RYPQ",
+   "payerAccount":"PK58 QPEK JDQN UY2I UQSC K7UO"
+},
+{
+   "id":195,
+   "operationDate":"2023-02-24",
+   "title":"Mix Pina Colada",
+   "operationDebit":0,
+   "operationProfit":8846,
+   "beneficiaryAccount":"FR69 0279 8248 60AN IRLW TUMA P30",
+   "payerAccount":"EE54 0526 6867 2977 5465"
+},
+{
+   "id":196,
+   "operationDate":"2023-02-13",
+   "title":"Soup - Campbells Bean Medley",
+   "operationDebit":0,
+   "operationProfit":5037,
+   "beneficiaryAccount":"NO96 2305 8568 458",
+   "payerAccount":"RS30 5163 3326 6347 7588 39"
+},
+{
+   "id":197,
+   "operationDate":"2022-11-23",
+   "title":"Sauce - Caesar Dressing",
+   "operationDebit":0,
+   "operationProfit":7362,
+   "beneficiaryAccount":"IS98 7229 6812 7475 3235 1517 12",
+   "payerAccount":"FR16 6242 8946 31M9 JLLG DXLL 849"
+},
+{
+   "id":198,
+   "operationDate":"2022-12-15",
+   "title":"Pork - Ham Hocks - Smoked",
+   "operationDebit":0,
+   "operationProfit":6069,
+   "beneficiaryAccount":"IT20 N690 1869 3541 4NDY NPSS API",
+   "payerAccount":"GT04 BXV9 ERG1 R0BF KIOU O9MP RKAU"
+},
+{
+   "id":199,
+   "operationDate":"2022-07-24",
+   "title":"Muffin Hinge Container 6",
+   "operationDebit":0,
+   "operationProfit":1489,
+   "beneficiaryAccount":"CH85 4087 7KQJ RLN3 XXS2 A",
+   "payerAccount":"ME74 5952 9368 5915 9885 33"
+},
+{
+   "id":200,
+   "operationDate":"2023-01-14",
+   "title":"Sunflower Seed Raw",
+   "operationDebit":0,
+   "operationProfit":1299,
+   "beneficiaryAccount":"SI24 2293 8520 5484 602",
+   "payerAccount":"HR43 8611 6750 1762 6948 7"
+}
+
 ]

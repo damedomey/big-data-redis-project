@@ -50,7 +50,7 @@ public class CustomerService {
         return extractClientsFromResult(result);
     }
 
-    public static Customer getById(String id){
+    public static Customer getById(int id){
         return database.jsonGet(commonName + id, Customer.class);
     }
 
@@ -91,13 +91,13 @@ public class CustomerService {
      *            - address
      * @param newValue
      */
-    public static void updateValueById(String id, String key, Object newValue) {
+    public static void updateValueById(int id, String key, Object newValue) {
         Customer customer = getById(id);
         if (customer != null) {
             switch (key) {
                 case "id":
                     CustomerService.delete(customer.getId());
-                    customer.setId(newValue.toString());
+                    customer.setId((int) newValue);
                     break;
                 case "lastname":
                     customer.setLastname(newValue.toString());
@@ -123,7 +123,7 @@ public class CustomerService {
      * Delete a customer by id
      * @param id
      */
-    public static void delete(String id){
+    public static void delete(int id){
         database.jsonDel(commonName + id);
     }
 

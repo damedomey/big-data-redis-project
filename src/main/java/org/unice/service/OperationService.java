@@ -54,6 +54,28 @@ public class OperationService {
     }
 
     /**
+     Allows to get all the transactions incoming to an account.
+     * @param accountNumber The account number for which we want to check incoming operations
+     */
+    public static List<Operation> getByBeneficiary(String accountNumber){
+        createIndexIfNotExists();
+        Query q = new Query("@beneficiaryAccount:" + "\"" + accountNumber + "\"");
+        SearchResult result = database.ftSearch(indexName, q);
+        return extractOperationsFromResult(result);
+    }
+
+    /**
+     Allows to get all the transactions outgoing from an account.
+     * @param accountNumber The account number for which we want to check outgoing operations
+     */
+    public static List<Operation> getByPayer(String accountNumber){
+        createIndexIfNotExists();
+        Query q = new Query("@payerAccount:" + "\"" + accountNumber + "\"");
+        SearchResult result = database.ftSearch(indexName, q);
+        return extractOperationsFromResult(result);
+    }
+
+    /**
      * Update a value for all operations.
      * @param key The key value define what should be updated.
      *        The possible values for the key are
@@ -154,9 +176,19 @@ public class OperationService {
                     .as("operationDebit")
             );
 
-             fields.add(NumericField
+            fields.add(NumericField
                     .of("$.operationProfit")
                     .as("operationProfit")
+            );
+            fields.add(TextField
+                    .of("$.beneficiaryAccount")
+                    .as("beneficiaryAccount")
+                    .sortable()
+            );
+            fields.add(TextField
+                    .of("$.payerAccount")
+                    .as("payerAccount")
+                    .sortable()
             );
 
 

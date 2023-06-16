@@ -41,7 +41,7 @@ public class OperationTest extends TestCase{
     public void test2GetAllOperations() throws RuntimeException{
         try{
             List<Operation> operations = OperationService.getAll();
-            assertEquals(100, operations.size());
+            assertEquals(200, operations.size());
         }catch (Exception e){
                 System.out.println(e);
                 e.printStackTrace();
@@ -52,7 +52,7 @@ public class OperationTest extends TestCase{
     public void test3GetByID() throws RuntimeException{
         try {
             Operation operation = OperationService.getById(68);
-            assertEquals( "Coffee Decaf Colombian", operation.getTitle());
+            assertEquals( "Tortillas - Flour, 8", operation.getTitle());
         }catch (Exception e){
                 e.printStackTrace();
                 throw new RuntimeException();
@@ -61,9 +61,20 @@ public class OperationTest extends TestCase{
 
     public void test4GetByTitle() throws RuntimeException{
         try{
-            List<Operation> operations = OperationService.getByTitle("Potato Dill Pickle");
+            List<Operation> operations = OperationService.getByTitle("Whmis Spray Bottle Graduated");
             assertEquals(1, operations.size() );
-            assertEquals(4, operations.get(0).getId());
+            assertEquals(69, operations.get(0).getId());
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            throw new RuntimeException();
+        }
+    }
+    public void test5GetByBeneficiary() throws RuntimeException{
+        try{
+            List<Operation> operations = OperationService.getByBeneficiary("PL83 2635 2984 1984 1033 2505 4781");
+            assertEquals(1, operations.size() );
+            assertEquals(60, operations.get(0).getId());
         }
         catch (Exception e){
             e.printStackTrace();
@@ -71,7 +82,19 @@ public class OperationTest extends TestCase{
         }
     }
 
-    public void test5UpdateAll() {
+    public void test6GetByPayer() throws RuntimeException{
+        try{
+            List<Operation> operations = OperationService.getByPayer("AE59 5507 5487 9702 2651 839");
+            assertEquals(1, operations.size() );
+            assertEquals(64, operations.get(0).getId());
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            throw new RuntimeException();
+        }
+    }
+
+    public void test7UpdateAll() {
         Operation previousOperation = OperationService.getById(10);
         OperationService.updateValueForAllOperations("title", "Hello world");
         Operation currentOperation = OperationService.getById(10);
@@ -79,8 +102,8 @@ public class OperationTest extends TestCase{
         assertEquals("Hello world", currentOperation.getTitle());
     }
 
-    public void test6Delete() {
+    public void test8Delete() {
         OperationService.delete(13);
-        assertEquals(99, OperationService.getAll().size());
+        assertEquals(199, OperationService.getAll().size());
     }
 }
